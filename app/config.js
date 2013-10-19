@@ -1,18 +1,13 @@
 requirejs.config({
 	baseUrl: 'app',
 	paths: {
-		backbone: '../bower_components/backbone/backbone',
-		lodash: '../bower_components/lodash/dist/lodash.compat',
-		polymer: '../bower_components/polymer/polymer.min',
-		moment: '../bower_components/moment/moment',
-		requirejs: '../bower_components/requirejs/require',
-		zepto: '../bower_components/zepto/zepto',
-		less: '../bower_components/less.js/dist/less-1.4.2',
-		handlebars: '../bower_components/handlebars/handlebars',
-		'handlebars.runtime': '../bower_components/handlebars/handlebars.runtime',
-		'requirejs-text': '../bower_components/requirejs-text/text',
-		text: '../bower_components/requirejs-text/text',
-		'javascript-debug': '../bower_components/javascript-debug/ba-debug',
+		backbone: '../vendor/backbone-min',
+		lodash: '../vendor/lodash.compat.min',
+		requirejs: '../vendor/require',
+		zepto: '../vendor/zepto.min',
+		less: '../vendor/less-1.4.2',
+		handlebars: '../vendor/handlebars',
+		text: '../vendor/text',
 		flowtype: '../vendor/flowtype'
 	},
 	shim: {

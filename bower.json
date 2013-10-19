@@ -24,8 +24,6 @@
     "zepto": "~1.0.0",
     "requirejs": "~2.1.8",
     "requirejs-text": "~2.0.10",
-    "handlebars": "~1.0.0",
-    "javascript-debug": "*",
-    "FlowTypeJS": "*"
+    "handlebars": "~1.0.0"
   }
 }
