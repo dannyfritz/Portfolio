@@ -1,0 +1,19 @@
+<h3>{{title}}</h3>
+{{#if image}}
+	<span class="image">
+		<img src="images/{{image}}" alt="{{title}}" />
+	</span>
+{{/if}}
+{{#if description}}
+	<span class="description">
+		<p>{{description}}</p>
+	</span>
+{{/if}}
+<div class="links pure-g-r">
+	{{#each links}}
+		<div class="link pure-u-1">
+			<i class="{{#if icon}}{{icon}}{{else}}icon-external-link{{/if}} icon-large"></i>
+			<a href="{{url}}" target="_blank">{{text}}</a>
+		</div>
+	{{/each}}
+</div>

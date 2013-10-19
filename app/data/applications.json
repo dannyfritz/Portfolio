@@ -1,0 +1,84 @@
+{
+	"applications": [
+		{
+			"title": "Message in a Bottle",
+			"image": "MessageInABottle.png",
+			"description": "A Message management library for LOVE 0.7.0 aiming to be unobtrusive and easy to use.",
+			"links": [
+				{
+					"url": "http://love2d.org/wiki/Message_in_a_Bottle",
+					"text": "Documentation",
+					"icon": "icon-list-alt"
+				},
+				{
+					"url": "https://bitbucket.org/dannyfritz/message-in-a-bottle/",
+					"text": "Bitbucket",
+					"icon": "icon-bitbucket"
+				}
+			]
+		},
+		{
+			"title": "Blurt!",
+			"image": "Blurt.png",
+			"description": "A realtime shoutbox feed utilizing Node.js and Mongodb.",
+			"links": [
+				{
+					"url": "https://github.com/dannyfritz/Blurt",
+					"text": "GitHub",
+					"icon": "icon-github"
+				}
+			]
+		},
+		{
+			"title": "Roster DNS Management",
+			"image": "Roster.png",
+			"description": "This is a software suite to help manage and maintain BIND DNS config files.",
+			"links": [
+				{
+					"url": "https://code.google.com/p/roster-dns-management/",
+					"text": "Google Code"
+				}
+			]
+		},
+		{
+			"title": "Lovely Expressions",
+			"image": "LovelyExpressions.png",
+			"description": "A paint-esque program. Supports color sampling and animations.",
+			"links": [
+				{
+					"url": "http://love2d.org/forums/viewtopic.php?f=5&t=1193#p11650",
+					"text": "Download"
+				}
+			]
+		},
+		{
+			"title": "LOVEshow",
+			"image": "LOVEshow.png",
+			"description": "A simple photo viewer. It automatically finds all photos in the current directory and displays them in a horizontal line.",
+			"links": [
+				{
+					"url": "https://bitbucket.org/dannyfritz/loveshow/",
+					"text": "Bitbucket",
+					"icon": "icon-bitbucket"
+				}
+			]
+		},
+		{
+			"title": "SPH",
+			"description": "This is a CUDA implementation of Smooth Particle Hyrodynamics.",
+			"image": "SPH.png",
+			"links": [
+				{
+					"url": "http://player.vimeo.com/video/34997187?title=0&byline=0&portrait=0&color=d24f21&autoplay=1",
+					"text": "Video",
+					"icon": "icon-play"
+				},
+				{
+					"url": "https://bitbucket.org/gwindes/super-pluvious-hydration-cuda-opengl",
+					"text": "Bitbucket",
+					"icon": "icon-code-fork"
+				}
+			]
+		}
+	]
+}
