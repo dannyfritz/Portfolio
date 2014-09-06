@@ -1,26 +1,36 @@
 {
   "name": "DannyFritzPortfolio",
   "version": "0.0.0",
-  "description": "Portfolio\r =========",
-  "main": "Gruntfile.js",
+  "description": "Portfolio",
+  "main": "",
   "dependencies": {},
   "devDependencies": {
-    "bower": "~1.2.6",
-    "grunt": "~0.4.1",
-    "grunt-bower-requirejs": "~0.7.1",
-    "express": "~3.4.0",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-contrib-jshint": "~0.6.4"
+    "browserify": "^5.11.1",
+    "eslint": "^0.8.0",
+    "hbsfy": "^2.1.0",
+    "mkdirp": "^0.5.0",
+    "ncp": "^0.6.0",
+    "node-sass": "^0.9.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test-lint",
+    "build": "npm run test && npm run make-folder && npm run build-style && npm run build-scriptt && npm run build-html",
+    "debug": "npm run test && npm run make-folder && npm run build-style && npm run build-scriptt && npm run build-html",
+    "make-folder": "mkdirp dist",
+    "test-lint": "eslint scripts",
+    "debug-style": "node-sass styles/main.scss dist/main.css --source-comments map --output-style compressed",
+    "build-style": "node-sass styles/main.scss dist/main.css --output-style compressed",
+    "debug-script": "browserify --debug scripts/index.js > dist/app.js",
+    "build-script": "browserify scripts/index.js > dist/app.js",
+    "debug-html": "ncp html/index.html dist/index.html",
+    "build-html": "ncp html/index.html dist/index.html"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/dannyfritz/Portfolio.git"
   },
   "author": "Danny Fritz <dannyfritz@gmail.com>",
-  "license": "Apache v2.0",
+  "license": "Apache 2.0",
   "readmeFilename": "README.md",
   "gitHead": "32ad43961dd26489a00c0f08be069e539eceab2f"
 }
