@@ -3,25 +3,29 @@
   "version": "0.0.0",
   "description": "Portfolio",
   "main": "",
-  "dependencies": {},
+  "dependencies": {
+    "ampersand-domthing-mixin": "^0.1.0",
+    "ampersand-state": "^4.3.10",
+    "ampersand-view": "^7.1.1"
+  },
   "devDependencies": {
     "browserify": "^5.11.1",
+    "domthingify": "^0.2.0",
     "eslint": "^0.8.0",
-    "hbsfy": "^2.1.0",
     "mkdirp": "^0.5.0",
     "ncp": "^0.6.0",
     "node-sass": "^0.9.3"
   },
   "scripts": {
     "test": "npm run test-lint",
-    "build": "npm run test && npm run make-folder && npm run build-style && npm run build-scriptt && npm run build-html",
-    "debug": "npm run test && npm run make-folder && npm run build-style && npm run build-scriptt && npm run build-html",
+    "build": "npm run test && npm run make-folder && npm run build-style && npm run build-script && npm run build-html",
+    "debug": "npm run test && npm run make-folder && npm run debug-style && npm run debug-script && npm run debug-html",
     "make-folder": "mkdirp dist",
     "test-lint": "eslint scripts",
     "debug-style": "node-sass styles/main.scss dist/main.css --source-comments map --output-style compressed",
     "build-style": "node-sass styles/main.scss dist/main.css --output-style compressed",
-    "debug-script": "browserify --debug scripts/index.js > dist/app.js",
-    "build-script": "browserify scripts/index.js > dist/app.js",
+    "debug-script": "browserify -t domthingify --debug scripts/index.js > dist/app.js",
+    "build-script": "browserify -t domthingify scripts/index.js > dist/app.js",
     "debug-html": "ncp html/index.html dist/index.html",
     "build-html": "ncp html/index.html dist/index.html"
   },
