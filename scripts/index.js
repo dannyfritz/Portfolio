@@ -1,9 +1,7 @@
 var PortfolioView = require('./views/Portfolio');
-var PortfolioModel = require('./models/Portfolio');
+var data = require('./data');
 
-var portfolioModel = new PortfolioModel({
-	name: 'Danny Fritz'
-});
-var portfolioView = new PortfolioView({ model: portfolioModel });
+var portfolioView = new PortfolioView({model: data});
 portfolioView.render();
-document.body.appendChild(portfolioView.el);
+
+global.document.body.appendChild(portfolioView.el);

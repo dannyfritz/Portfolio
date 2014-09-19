@@ -1,0 +1,3 @@
+<nav>
+	<div data-hook="navItems" class="navItems"></div>
+</nav>

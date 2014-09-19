@@ -1,0 +1,7 @@
+<div class="link">
+	<div>{{model.text}}</div>
+	<div>{{model.url}}</div>
+	{{#if model.icon }}
+		<div>{{model.icon}}</div>
+	{{/if }}
+</div>
