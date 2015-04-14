@@ -1,4 +1,0 @@
-<section>
-	<h2>{{model.name}}</h2>
-	<div data-hook="items" class="items"></div>
-</section>

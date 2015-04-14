@@ -1,59 +1,39 @@
 {
-  "name": "DannyFritzPortfolio",
+  "name": "",
   "version": "0.0.0",
-  "description": "Portfolio",
+  "description": "",
+  "main": "server.js",
   "dependencies": {
-    "ampersand-collection": "^1.3.x",
-    "ampersand-domthing-mixin": "^0.1.x",
-    "ampersand-state": "^4.3.x",
-    "ampersand-view": "^7.1.x"
+    "lodash": "^3.6.0",
+    "vue": "^0.11.5"
   },
   "devDependencies": {
-    "browserify": "^5.11.1",
-    "domthing": "^0.2.0-rc2",
-    "domthingify": "^0.2.0",
-    "eslint": "^0.8.0",
-    "mkdirp": "^0.5.0",
-    "ncp": "^0.6.0",
-    "node-sass": "^0.9.3",
-    "npm-stare": "^1.0.0"
+    "babelify": "^6.0.2",
+    "browserify": "^9.0.1",
+    "bulkify": "^1.1.1",
+    "gulp": "^3.8.10",
+    "gulp-batch": "^1.0.5",
+    "gulp-eslint": "^0.9.0",
+    "gulp-less": "^3.0.2",
+    "gulp-sourcemaps": "^1.3.0",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.3",
+    "gulp-watch": "^4.1.0",
+    "hjsonify": "^0.2.0",
+    "less-plugin-autoprefix": "^1.3.0",
+    "less-plugin-npm-import": "^2.0.0",
+    "live-server": "^0.7.1",
+    "partialify": "^3.1.3",
+    "require-dir": "^0.3.0",
+    "resolve": "^1.1.0",
+    "stream-combiner2": "^1.0.2",
+    "trash": "^1.4.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.0.0"
   },
   "scripts": {
-    "stare": "npm-stare",
-    "test": "npm run test-lint",
-    "build": "npm run test && npm run make-folder && npm run build-style && npm run build-script && npm run copy",
-    "debug": "npm run test && npm run make-folder && npm run debug-style && npm run debug-script && npm run copy",
-    "make-folder": "mkdirp dist && mkdirp dist/images",
-    "copy": "ncp html/index.html dist/index.html && ncp images dist/images",
-    "test-lint": "eslint scripts",
-    "build-style": "node-sass styles/main.scss dist/main.css --output-style compressed",
-    "debug-style": "node-sass styles/main.scss dist/main.css --source-comments map --output-style compressed",
-    "watch-style": "npm run make-folder && npm run debug-style",
-    "build-script": "browserify -t domthingify scripts/index.js > dist/app.js",
-    "debug-script": "browserify -t domthingify --debug scripts/index.js > dist/app.js",
-    "watch-script": "npm run test-lint && npm run make-folder && npm run debug-script",
-    "build-copy": "ncp html/index.html dist/index.html"
-  },
-  "stare": {
-    "watch-script": {
-      "path": [
-        "scripts/",
-        "templates/"
-      ]
-    },
-    "watch-style": {
-      "path": "styles/"
-    },
-    "watch-html": {
-      "path": "html/"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dannyfritz/Portfolio.git"
+    "test": "browserify -t 6to5ify -t coverify --bare ./tests/index.js | node | coverify -q"
   },
   "author": "Danny Fritz <dannyfritz@gmail.com>",
-  "license": "Apache 2.0",
-  "readmeFilename": "README.md",
-  "gitHead": "32ad43961dd26489a00c0f08be069e539eceab2f"
+  "license": "MIT"
 }

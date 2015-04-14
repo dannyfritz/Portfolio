@@ -1,3 +1,0 @@
-<header>
-	<h1>{{model.bio.name}}</h1>
-</header>

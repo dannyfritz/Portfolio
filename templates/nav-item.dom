@@ -1,3 +1,0 @@
-<div class="navItem">
-	{{model.name}}
-</div>
