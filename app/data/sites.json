@@ -1,27 +1,6 @@
 {
 	"sites": [
 		{
-			"title": "Résumé",
-			"image": "",
-			"links": [
-				{
-					"url": "https://docs.google.com/document/d/13oyGnlpDQ9pL2itJE5q0HtkXgAiE-qNeupt_i3KR8xg/edit?hl=en&authkey=COe_jtYO",
-					"text": "Read!",
-					"icon": "icon-file-text-alt"
-				}
-			]
-		},
-		{
-			"title": "about.me",
-			"image": "",
-			"links": [
-				{
-					"url": "http://about.me/dannyfritz",
-					"text": "Me!"
-				}
-			]
-		},
-		{
 			"title": "GitHub",
 			"image": "",
 			"links": [
@@ -49,12 +28,13 @@
 			]
 		},
 		{
-			"title": "Google Code",
+			"title": "Corvid Coder",
 			"image": "",
 			"links": [
 				{
-					"url": "https://code.google.com/u/DannyFritz/",
-					"text": "Knife!"
+					"url": "https://www.youtube.com/channel/UCpVBxWF178g5M24wkYDxScA",
+					"text": "Watch!",
+					"icon": "icon-youtube"
 				}
 			]
 		},
@@ -66,6 +46,17 @@
 					"url": "https://soundcloud.com/technocat",
 					"text": "Listen!",
 					"icon": "icon-cloud"
+				}
+			]
+		},
+		{
+			"title": "Résumé",
+			"image": "",
+			"links": [
+				{
+					"url": "https://docs.google.com/document/d/13oyGnlpDQ9pL2itJE5q0HtkXgAiE-qNeupt_i3KR8xg/edit?hl=en&authkey=COe_jtYO",
+					"text": "Read!",
+					"icon": "icon-file-text-alt"
 				}
 			]
 		}
