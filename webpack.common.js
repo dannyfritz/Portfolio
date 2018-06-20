@@ -6,9 +6,10 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
   plugins: [
-    new CleanWebpackPlugin(['dist']),
+    new CleanWebpackPlugin(['dist/*']),
     new CopyWebpackPlugin([
       {from: "./src/assets/images/", to: "./assets/images/"},
+      {from: "./CNAME", to: "."}
     ]),
     new HtmlWebpackPlugin({
       title: 'Danny Fritz',
