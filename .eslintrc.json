@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "standard",
+    "plugin:vue/recommended"
+  ],
+  "parserOptions": {
+    "parser": "typescript-eslint-parser"
+  },
+  "plugins": [
+    "typescript"
+  ],
+  "rules": {
+    "quotes": ["error", "double", {"allowTemplateLiterals": true}],
+    "comma-dangle": ["error", "always-multiline"],
+    "semi": ["error", "always"]
+  }
+}
