@@ -3,6 +3,102 @@
   	"name": "Danny Fritz",
   	"description": "Passionate about software, graphics, environmentalism, biking, public transit, urban planning, education, and birds."
   },
+  "sites": [
+    {
+      "title": "About Me",
+      "image": "",
+      "links": [
+        {
+          "url": "https://docs.google.com/document/d/13oyGnlpDQ9pL2itJE5q0HtkXgAiE-qNeupt_i3KR8xg/edit?hl=en&authkey=COe_jtYO",
+          "text": "Résumé",
+          "icon": "fa fa-file-alt"
+        },
+        {
+          "url": "mailto:dannyfritz@gmail.com",
+          "text": "Email",
+          "icon": "fas fa-envelope"
+        },
+        {
+          "url": "https://www.linkedin.com/in/dcfritz",
+          "text": "LinkedIn",
+          "icon": "fab fa-linkedin"
+        },
+        {
+          "url": "https://ebird.org/profile/OTI1NzM5",
+          "text": "eBird",
+          "icon": "fas fa-crow"
+        },
+        {
+          "url": "https://www.patreon.com/dannyfritz",
+          "text": "Patreon",
+          "icon": "fab fa-patreon"
+        }
+      ]
+    },
+    {
+      "title": "Code",
+      "image": "",
+      "links": [
+        {
+          "url": "https://github.com/dannyfritz",
+          "text": "GitHub",
+          "icon": "fab fa-github"
+        },
+        {
+          "url": "https://bitbucket.org/dannyfritz",
+          "text": "BitBucket",
+          "icon": "fab fa-bitbucket"
+        },
+        {
+          "url": "https://gitlab.com/dannyfritz",
+          "text": "GitLab",
+          "icon": "fab fa-gitlab"
+        },
+        {
+          "url": "https://gist.github.com/dannyfritz",
+          "text": "GitHub Gists",
+          "icon": "fab fa-github"
+        },
+        {
+          "url": "https://code.google.com/u/DannyFritz/",
+          "text": "Google Code",
+          "icon": "fa fa-code"
+        }
+      ]
+    },
+    {
+      "title": "Corvid Coder",
+      "image": "Crow.png",
+      "links": [
+        {
+          "url": "http://corvidcoder.com/",
+          "text": "Website",
+          "icon": "fas fa-crow"
+        },
+        {
+          "url": "https://github.com/dannyfritz",
+          "text": "Watch",
+          "icon": "fab fa-youtube"
+        },
+        {
+          "url": "https://gist.github.com/corvid-coder",
+          "text": "See Code",
+          "icon": "fab fa-github"
+        }
+      ]
+    },
+    {
+      "title": "SoundCloud",
+      "image": "",
+      "links": [
+        {
+          "url": "https://soundcloud.com/technocat",
+          "text": "Listen!",
+          "icon": "fa fa-headphones"
+        }
+      ]
+    }
+  ],
   "applications": [
     {
       "title": "Message in a Bottle",
@@ -12,12 +108,12 @@
         {
           "url": "http://love2d.org/wiki/Message_in_a_Bottle",
           "text": "Documentation",
-          "icon": "icon-list-alt"
+          "icon": "fa fa-list-alt"
         },
         {
           "url": "https://bitbucket.org/dannyfritz/message-in-a-bottle/",
           "text": "Bitbucket",
-          "icon": "icon-bitbucket"
+          "icon": "fab fa-bitbucket"
         }
       ]
     },
@@ -29,7 +125,29 @@
         {
           "url": "https://github.com/dannyfritz/Blurt",
           "text": "GitHub",
-          "icon": "icon-github"
+          "icon": "fab fa-github"
+        }
+      ]
+    },
+    {
+      "title": "C++ 3D Engine",
+      "image": "CS334.png",
+      "description": "Coded almost entirely in C++ standard libraries. fltk used to instantiate the window and OpenGL called only to copy the framebuffer to the screen.",
+      "links": [
+        {
+          "url": "http://www.youtube.com/watch?v=CMEJMHo0OM8",
+          "text": "3d Models",
+          "icon": "fab fa-youtube"
+        },
+        {
+          "url": "http://www.youtube.com/watch?v=9gH3nVMhmro",
+          "text": "Lighting",
+          "icon": "fab fa-youtube"
+        },
+        {
+          "url": "http://www.youtube.com/watch?v=7evNCGAIhDQ",
+          "text": "Environment Mapping",
+          "icon": "fab fa-youtube"
         }
       ]
     },
@@ -40,7 +158,8 @@
       "links": [
         {
           "url": "https://code.google.com/p/roster-dns-management/",
-          "text": "Google Code"
+          "text": "Google Code",
+          "icon": "fa fa-code"
         }
       ]
     },
@@ -51,7 +170,8 @@
       "links": [
         {
           "url": "http://love2d.org/forums/viewtopic.php?f=5&t=1193#p11650",
-          "text": "Download"
+          "text": "Download",
+          "icon": "fa fa-download"
         }
       ]
     },
@@ -63,7 +183,7 @@
         {
           "url": "https://bitbucket.org/dannyfritz/loveshow/",
           "text": "Bitbucket",
-          "icon": "icon-bitbucket"
+          "icon": "fab fa-bitbucket"
         }
       ]
     },
@@ -75,83 +195,12 @@
         {
           "url": "http://player.vimeo.com/video/34997187?title=0&byline=0&portrait=0&color=d24f21&autoplay=1",
           "text": "Video",
-          "icon": "icon-play"
+          "icon": "fab fa-youtube"
         },
         {
           "url": "https://bitbucket.org/gwindes/super-pluvious-hydration-cuda-opengl",
           "text": "Bitbucket",
-          "icon": "icon-code-fork"
-        }
-      ]
-    }
-  ],
-  "sites": [
-    {
-      "title": "Résumé",
-      "image": "",
-      "links": [
-        {
-          "url": "https://docs.google.com/document/d/13oyGnlpDQ9pL2itJE5q0HtkXgAiE-qNeupt_i3KR8xg/edit?hl=en&authkey=COe_jtYO",
-          "text": "Read!",
-          "icon": "icon-file-text-alt"
-        }
-      ]
-    },
-    {
-      "title": "about.me",
-      "image": "",
-      "links": [
-        {
-          "url": "http://about.me/dannyfritz",
-          "text": "Me!"
-        }
-      ]
-    },
-    {
-      "title": "GitHub",
-      "image": "",
-      "links": [
-        {
-          "url": "https://github.com/dannyfritz",
-          "text": "Fork!",
-          "icon": "icon-github"
-        },
-        {
-          "url": "https://gist.github.com/dannyfritz",
-          "text": "Gists!",
-          "icon": "icon-github-alt"
-        }
-      ]
-    },
-    {
-      "title": "Bitbucket",
-      "image": "",
-      "links": [
-        {
-          "url": "https://bitbucket.org/dannyfritz",
-          "text": "Spoon!",
-          "icon": "icon-bitbucket"
-        }
-      ]
-    },
-    {
-      "title": "Google Code",
-      "image": "",
-      "links": [
-        {
-          "url": "https://code.google.com/u/DannyFritz/",
-          "text": "Knife!"
-        }
-      ]
-    },
-    {
-      "title": "Soundcloud",
-      "image": "",
-      "links": [
-        {
-          "url": "https://soundcloud.com/technocat",
-          "text": "Listen!",
-          "icon": "icon-cloud"
+          "icon": "fab fa-bitbucket"
         }
       ]
     }
@@ -165,22 +214,22 @@
         {
           "url": "https://www.youtube.com/watch?v=pMoHeUvz9lg",
           "text": "Timelapse",
-          "icon": "icon-play"
+          "icon": "fab fa-youtube"
         },
         {
           "url": "https://bitbucket.org/dannyfritz/noahs-ark/",
           "text": "Bitbucket",
-          "icon": "icon-code-fork"
+          "icon": "fab fa-bitbucket"
         },
         {
           "url": "https://bitbucket.org/dannyfritz/noahs-ark/downloads/Noahs_Ark-01-Windows.zip",
           "text": "Windows",
-          "icon": "icon-windows"
+          "icon": "fab fa-windows"
         },
         {
           "url": "https://bitbucket.org/dannyfritz/noahs-ark/downloads/Noahs_Ark-01-OSX.zip",
           "text": "OSX",
-          "icon": "icon-apple"
+          "icon": "fab fa-apple"
         }
       ]
     },
@@ -192,39 +241,17 @@
         {
           "url": "https://bitbucket.org/dannyfritz/rebound/",
           "text": "Bitbucket",
-          "icon": "icon-code-fork"
+          "icon": "fab fa-bitbucket"
         },
         {
           "url": "https://bitbucket.org/dannyfritz/rebound/downloads/Rebound-10-Win.zip",
           "text": "Windows",
-          "icon": "icon-windows"
+          "icon": "fab fa-windows"
         },
         {
           "url": "https://bitbucket.org/dannyfritz/rebound/downloads/Rebound-10-OSX.zip",
           "text": "OSX",
-          "icon": "icon-apple"
-        }
-      ]
-    },
-    {
-      "title": "C++ 3D Engine",
-      "image": "CS334.png",
-      "description": "Coded almost entirely in C++ standard libraries. fltk used to instantiate the window and OpenGL called only to copy the framebuffer to the screen.",
-      "links": [
-        {
-          "url": "http://www.youtube.com/watch?v=CMEJMHo0OM8",
-          "text": "3d Models",
-          "icon": "icon-play"
-        },
-        {
-          "url": "http://www.youtube.com/watch?v=9gH3nVMhmro",
-          "text": "Lighting",
-          "icon": "icon-play"
-        },
-        {
-          "url": "http://www.youtube.com/watch?v=7evNCGAIhDQ",
-          "text": "Environment Mapping",
-          "icon": "icon-play"
+          "icon": "fab fa-apple"
         }
       ]
     }

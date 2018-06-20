@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100|Lato:300i,300,400');
+
+:root {
+  font-size: 18pt;
+  font-family: 'Lato', sans-serif;
+  /* http://www.colourlovers.com/palette/92095/Giant_Goldfish */
+  --color-1: #69D2E7;
+  --color-2: #A7DBD8;
+  --color-3: #E0E4CC;
+  --color-4: #F38630;
+  --color-5: #FA6900;
+}

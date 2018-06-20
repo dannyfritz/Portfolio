@@ -11,7 +11,8 @@ module.exports = {
       {from: "./src/assets/images/", to: "./assets/images/"},
     ]),
     new HtmlWebpackPlugin({
-      title: 'Danny Fritz'
+      title: 'Danny Fritz',
+      template: 'src/index.html',
     }),
     new VueLoaderPlugin(),
   ],
