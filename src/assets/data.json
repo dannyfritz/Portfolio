@@ -1,0 +1,232 @@
+{
+  "bio": {
+  	"name": "Danny Fritz",
+  	"description": "Passionate about software, graphics, environmentalism, biking, public transit, urban planning, education, and birds."
+  },
+  "applications": [
+    {
+      "title": "Message in a Bottle",
+      "image": "MessageInABottle.png",
+      "description": "A Message management library for LOVE 0.7.0 aiming to be unobtrusive and easy to use.",
+      "links": [
+        {
+          "url": "http://love2d.org/wiki/Message_in_a_Bottle",
+          "text": "Documentation",
+          "icon": "icon-list-alt"
+        },
+        {
+          "url": "https://bitbucket.org/dannyfritz/message-in-a-bottle/",
+          "text": "Bitbucket",
+          "icon": "icon-bitbucket"
+        }
+      ]
+    },
+    {
+      "title": "Blurt!",
+      "image": "Blurt.png",
+      "description": "A realtime shoutbox feed utilizing Node.js and Mongodb.",
+      "links": [
+        {
+          "url": "https://github.com/dannyfritz/Blurt",
+          "text": "GitHub",
+          "icon": "icon-github"
+        }
+      ]
+    },
+    {
+      "title": "Roster DNS Management",
+      "image": "Roster.png",
+      "description": "This is a software suite to help manage and maintain BIND DNS config files.",
+      "links": [
+        {
+          "url": "https://code.google.com/p/roster-dns-management/",
+          "text": "Google Code"
+        }
+      ]
+    },
+    {
+      "title": "Lovely Expressions",
+      "image": "LovelyExpressions.png",
+      "description": "A paint-esque program. Supports color sampling and animations.",
+      "links": [
+        {
+          "url": "http://love2d.org/forums/viewtopic.php?f=5&t=1193#p11650",
+          "text": "Download"
+        }
+      ]
+    },
+    {
+      "title": "LOVEshow",
+      "image": "LOVEshow.png",
+      "description": "A simple photo viewer. It automatically finds all photos in the current directory and displays them in a horizontal line.",
+      "links": [
+        {
+          "url": "https://bitbucket.org/dannyfritz/loveshow/",
+          "text": "Bitbucket",
+          "icon": "icon-bitbucket"
+        }
+      ]
+    },
+    {
+      "title": "SPH",
+      "description": "This is a CUDA implementation of Smooth Particle Hyrodynamics.",
+      "image": "SPH.png",
+      "links": [
+        {
+          "url": "http://player.vimeo.com/video/34997187?title=0&byline=0&portrait=0&color=d24f21&autoplay=1",
+          "text": "Video",
+          "icon": "icon-play"
+        },
+        {
+          "url": "https://bitbucket.org/gwindes/super-pluvious-hydration-cuda-opengl",
+          "text": "Bitbucket",
+          "icon": "icon-code-fork"
+        }
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "title": "Résumé",
+      "image": "",
+      "links": [
+        {
+          "url": "https://docs.google.com/document/d/13oyGnlpDQ9pL2itJE5q0HtkXgAiE-qNeupt_i3KR8xg/edit?hl=en&authkey=COe_jtYO",
+          "text": "Read!",
+          "icon": "icon-file-text-alt"
+        }
+      ]
+    },
+    {
+      "title": "about.me",
+      "image": "",
+      "links": [
+        {
+          "url": "http://about.me/dannyfritz",
+          "text": "Me!"
+        }
+      ]
+    },
+    {
+      "title": "GitHub",
+      "image": "",
+      "links": [
+        {
+          "url": "https://github.com/dannyfritz",
+          "text": "Fork!",
+          "icon": "icon-github"
+        },
+        {
+          "url": "https://gist.github.com/dannyfritz",
+          "text": "Gists!",
+          "icon": "icon-github-alt"
+        }
+      ]
+    },
+    {
+      "title": "Bitbucket",
+      "image": "",
+      "links": [
+        {
+          "url": "https://bitbucket.org/dannyfritz",
+          "text": "Spoon!",
+          "icon": "icon-bitbucket"
+        }
+      ]
+    },
+    {
+      "title": "Google Code",
+      "image": "",
+      "links": [
+        {
+          "url": "https://code.google.com/u/DannyFritz/",
+          "text": "Knife!"
+        }
+      ]
+    },
+    {
+      "title": "Soundcloud",
+      "image": "",
+      "links": [
+        {
+          "url": "https://soundcloud.com/technocat",
+          "text": "Listen!",
+          "icon": "icon-cloud"
+        }
+      ]
+    }
+  ],
+  "games": [
+    {
+      "title": "Noah's Ark",
+      "description": "Help Noah find all the missing animals by searching around the world. Won 3rd Place in the 48 hour Reddit Game Jam #5.",
+      "image": "NoahsArk.png",
+      "links": [
+        {
+          "url": "https://www.youtube.com/watch?v=pMoHeUvz9lg",
+          "text": "Timelapse",
+          "icon": "icon-play"
+        },
+        {
+          "url": "https://bitbucket.org/dannyfritz/noahs-ark/",
+          "text": "Bitbucket",
+          "icon": "icon-code-fork"
+        },
+        {
+          "url": "https://bitbucket.org/dannyfritz/noahs-ark/downloads/Noahs_Ark-01-Windows.zip",
+          "text": "Windows",
+          "icon": "icon-windows"
+        },
+        {
+          "url": "https://bitbucket.org/dannyfritz/noahs-ark/downloads/Noahs_Ark-01-OSX.zip",
+          "text": "OSX",
+          "icon": "icon-apple"
+        }
+      ]
+    },
+    {
+      "title": "Rebound",
+      "description": "A glorified version of Pong spiced up with gravity wells, powerups, particle systems, and AI. Game has been downloaded 1000+ times.",
+      "image": "Rebound.jpg",
+      "links": [
+        {
+          "url": "https://bitbucket.org/dannyfritz/rebound/",
+          "text": "Bitbucket",
+          "icon": "icon-code-fork"
+        },
+        {
+          "url": "https://bitbucket.org/dannyfritz/rebound/downloads/Rebound-10-Win.zip",
+          "text": "Windows",
+          "icon": "icon-windows"
+        },
+        {
+          "url": "https://bitbucket.org/dannyfritz/rebound/downloads/Rebound-10-OSX.zip",
+          "text": "OSX",
+          "icon": "icon-apple"
+        }
+      ]
+    },
+    {
+      "title": "C++ 3D Engine",
+      "image": "CS334.png",
+      "description": "Coded almost entirely in C++ standard libraries. fltk used to instantiate the window and OpenGL called only to copy the framebuffer to the screen.",
+      "links": [
+        {
+          "url": "http://www.youtube.com/watch?v=CMEJMHo0OM8",
+          "text": "3d Models",
+          "icon": "icon-play"
+        },
+        {
+          "url": "http://www.youtube.com/watch?v=9gH3nVMhmro",
+          "text": "Lighting",
+          "icon": "icon-play"
+        },
+        {
+          "url": "http://www.youtube.com/watch?v=7evNCGAIhDQ",
+          "text": "Environment Mapping",
+          "icon": "icon-play"
+        }
+      ]
+    }
+  ]
+}
