@@ -76,13 +76,13 @@
           "icon": "fas fa-crow"
         },
         {
-          "url": "https://github.com/dannyfritz",
+          "url": "https://www.youtube.com/channel/UCpVBxWF178g5M24wkYDxScA",
           "text": "Watch",
           "icon": "fab fa-youtube"
         },
         {
-          "url": "https://gist.github.com/corvid-coder",
-          "text": "See Code",
+          "url": "https://github.com/corvid-coder",
+          "text": "Code",
           "icon": "fab fa-github"
         }
       ]
@@ -93,7 +93,7 @@
       "links": [
         {
           "url": "https://soundcloud.com/technocat",
-          "text": "Listen!",
+          "text": "Listen",
           "icon": "fa fa-headphones"
         }
       ]
