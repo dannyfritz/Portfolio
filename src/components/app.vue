@@ -1,3 +1,4 @@
+
 <template>
   <main>
     <Bio
@@ -36,7 +37,12 @@ h2 {
 }
 .bg, .bg-alt {
   padding: 2rem 1rem;
-
+}
+.bg h2 {
+  color: black;
+}
+.bg-alt h2 {
+  color: white;
 }
 .bg {
   border-top-color: var(--color-1);

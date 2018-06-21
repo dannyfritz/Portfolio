@@ -59,6 +59,18 @@ h1 {
   margin-bottom: 0.5rem;
   max-height: 6rem;
 }
+a {
+  line-height: 1.25em;
+}
+.bg-alt a:visited, .bg-alt a, .bg-alt i, .bg-alt h1 {
+  color: white;
+}
+.bg a:visited, .bg a, .bg i, .bg h1 {
+  color: black;
+}
+i {
+  width: 1.25rem;
+}
 </style>
 
 <script lang="ts">
