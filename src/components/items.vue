@@ -33,7 +33,7 @@
 <style scoped>
 h1 {
   font-size: 1.5rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 .bottom {
   display: flex;
