@@ -11,6 +11,7 @@
         <div class="bottom">
           <h1>{{ item.title }}</h1>
         </div>
+        <blockquote>{{ item.description }}</blockquote>
         <img
           v-if="item.image"
           :src="'/assets/images/' + item.image">
@@ -55,17 +56,22 @@ h1 {
   padding-right: var(--item-gutter);
   /* padding-bottom: 1rem; */
 }
+.item blockquote {
+  font-size: 0.5rem;
+  text-align: justify;
+}
 .item > article > img {
-  margin-bottom: 0.5rem;
+  margin: 0.5rem 0;
   max-height: 6rem;
+  /* cursor: help; */
 }
 a {
   line-height: 1.25em;
 }
-.bg-alt a:visited, .bg-alt a, .bg-alt i, .bg-alt h1 {
+.bg-alt a:visited, .bg-alt a, .bg-alt i, .bg-alt h1, .bg-alt blockquote {
   color: white;
 }
-.bg a:visited, .bg a, .bg i, .bg h1 {
+.bg a:visited, .bg a, .bg i, .bg h1, .bg blockquote {
   color: black;
 }
 i {
