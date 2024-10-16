@@ -6,6 +6,9 @@ export default withMermaid({
 	title: "Danny Fritz",
 	description: "Danny's Personal Musings",
 	lastUpdated: true,
+	markdown: {
+		math: true,
+	},
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
