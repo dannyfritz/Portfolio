@@ -9,7 +9,7 @@ Ah, the age old question: “Is bigger better?”. Node has flipped it on its he
 
 This article is going to go over the various module sizes and discuss the reasons developers would use or choose each one.
 
-![Small vs Big Dogs](./924797_878671665545667_385439750_n.webp)
+![Small vs Big Dogs](./images/924797_878671665545667_385439750_n.webp)
 
 ## Tiny Modules
 
@@ -40,7 +40,7 @@ Tiny modules are actually about complexity minimalism and not about how few line
 - Hard to find
 - Does not solve complex problems
 
-![Cats of various sizes](./tumblr_lpseff4tbm1qi805wo1_500.jpg)
+![Cats of various sizes](./images/tumblr_lpseff4tbm1qi805wo1_500.jpg)
 
 ## Monolithic Modules
 
@@ -72,7 +72,7 @@ It exposes a simpler API to allow the user to perform complex tasks by interacti
 - Hard to compose
 - Hard to maintain
 
-![Pug dogs of various sizes](./1353440635851774.jpg)
+![Pug dogs of various sizes](./images/1353440635851774.jpg)
 
 ## Meta Modules
 
@@ -118,22 +118,22 @@ Sindre Sorhus says [modules should be small](http://dailyjs.com/2015/07/02/small
 
 Eran Hammer says [tiny modules aren’t a slam dunk](https://hueniverse.com/2014/05/30/the-fallacy-of-tiny-modules/).
 
-> The bottom line is simple – at some point, someone has to put it all together and then,
-> all the complexity is going to surface and the shit will hit the fan.
+> "The bottom line is simple – at some point, someone has to put it all together and then,
+> all the complexity is going to surface and the shit will hit the fan."
 
 James Halliday also thinks [small modules are cool](https://gist.github.com/substack/5075355).
 
-> As much as possible, I try to build large-scale projects using lots of tiny
+> "As much as possible, I try to build large-scale projects using lots of tiny
 > modules so I just repeat this process whenever I need some reusable component
-> that doesn’t yet exist in quite the form I need it to exist.
+> that doesn’t yet exist in quite the form I need it to exist."
 
 Rich Harris says [it’s not that simple](https://medium.com/@Rich_Harris/small-modules-it-s-not-quite-that-simple-3ca532d65de4#.gn3k26gc5).
 
-> Yes, small modules are easier to write.
+> "Yes, small modules are easier to write.
 > Yes, they’re easier to test.
 > Yes, it’s easier to adhere to semver.
 > These are all things that make your life as a library author easier.
-> As we’ve seen, they come at a cost for others.
+> As we’ve seen, they come at a cost for others."
 
 From these quotes, it wouldn’t look like there is a popular opinion, but there really is.
 The popular opinion is on the side of tiny modules [currently](http://thenodeway.io/introduction/#build-small-single-purpose-modules).
