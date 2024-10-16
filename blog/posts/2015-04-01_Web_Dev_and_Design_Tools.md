@@ -1,7 +1,7 @@
 ---
-title: "Web Development & Design Tools (March 2016)"
+title: "Web Development & Design Tools (April 2015)"
 summary: "What tools am I using?"
-date: 2016-03-10T00:00
+date: 2015-04-01T00:00
 ---
 
 <post-header />
@@ -9,35 +9,35 @@ date: 2016-03-10T00:00
 
 This is a list of all my go-to Web Development & Design libraries, utilities, build tools, etc.
 
-Changes since the [last post](./2016-02-08_Web_Dev_and_Design_Tools.md) are denoted with:
+Changes since the [last post](./2015-02-03_Web_Dev_and_Design_Tools.md) are denoted with:
 
 - **+Added**
 - ~~–Removed~~
 
 ### View Libraries
 
+- Lo-Dash Templates
+- Handlebars
 - Vue.js
-- React
-- Angular.js
 
 ### Utilities
 
+- Ampersand.js
+- ~~-Backbone.js~~
+- Immutable.js
+- JQuery
 - Lo-Dash
 - Moment
-- JQuery
-- Immutable.js
 - nuclear-js
-- vuex
-- **+Electron**
 
 ### Dependency Manangers
 
 - npm
+- ~~-Bower~~
 
 ### Build Tools
 
-- ~~–Browserify~~
-- webpack
+- Browserify
 - Babel
 - npm run
 - gulp.js
@@ -45,19 +45,16 @@ Changes since the [last post](./2016-02-08_Web_Dev_and_Design_Tools.md) are deno
 ### HTTP Servers
 
 - restify
-- Express
 
 ### Databases
 
 - CouchDB
-- PostgreSQL
+- **+PostgreSQL**
 
 ### CSS
 
 - Less.js
 - CSSBEM
-- **+BEVM**
-- Autoprefixer
 
 ### Typography
 
@@ -74,18 +71,12 @@ Changes since the [last post](./2016-02-08_Web_Dev_and_Design_Tools.md) are deno
 - ESLint
 - Chrome Developer Tools
 - live-server
-- node-inspector
-- node-monkey
-- **+nodemon**
 
 ### Testing
 
 - Tape
-- ~~–AVA~~
-- **+testdouble.js**
-- **+Istanbul**
-- ~~–Sinon~~
-- ~~–Coverify~~
+- Sinon
+- Coverify
 - Travis CI
 
 ### Editors

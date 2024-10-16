@@ -1,7 +1,7 @@
 ---
-title: "Web Development & Design Tools (March 2016)"
+title: "Web Development & Design Tools (January 2015)"
 summary: "What tools am I using?"
-date: 2016-03-10T00:00
+date: 2015-02-03T00:00
 ---
 
 <post-header />
@@ -9,55 +9,48 @@ date: 2016-03-10T00:00
 
 This is a list of all my go-to Web Development & Design libraries, utilities, build tools, etc.
 
-Changes since the [last post](./2016-02-08_Web_Dev_and_Design_Tools.md) are denoted with:
+Changes since the [last post](./2014-12-09_Web_Dev_and_Design_Tools.md) are denoted with:
 
 - **+Added**
 - ~~–Removed~~
 
 ### View Libraries
 
-- Vue.js
-- React
-- Angular.js
+- ~~-Dömthing~~
+- Lo-Dash Templates
+- Handlebars
+- **+Vue.js**
 
 ### Utilities
 
+- Ampersand.js
+- Backbone.js
+- **+Immutable.js**
+- JQuery
 - Lo-Dash
 - Moment
-- JQuery
-- Immutable.js
-- nuclear-js
-- vuex
-- **+Electron**
+- **+nuclear-js**
 
 ### Dependency Manangers
 
 - npm
+- Bower
 
 ### Build Tools
 
-- ~~–Browserify~~
-- webpack
-- Babel
+- Browserify
+- **+6to5**
 - npm run
 - gulp.js
 
 ### HTTP Servers
 
-- restify
-- Express
-
-### Databases
-
-- CouchDB
-- PostgreSQL
+- **+restify**
 
 ### CSS
 
-- Less.js
 - CSSBEM
-- **+BEVM**
-- Autoprefixer
+- Less.js
 
 ### Typography
 
@@ -66,26 +59,20 @@ Changes since the [last post](./2016-02-08_Web_Dev_and_Design_Tools.md) are deno
 
 ### Colors
 
-- COLOURlovers
 - Adobe Color CC
+- COLOURlovers
 
 ### Debugging
 
 - ESLint
 - Chrome Developer Tools
-- live-server
-- node-inspector
-- node-monkey
-- **+nodemon**
+- **+live-server**
 
 ### Testing
 
 - Tape
-- ~~–AVA~~
-- **+testdouble.js**
-- **+Istanbul**
-- ~~–Sinon~~
-- ~~–Coverify~~
+- Sinon
+- Coverify
 - Travis CI
 
 ### Editors
