@@ -77,7 +77,7 @@ I don’t remember if we met in the math office or at a local concert.
 ![planet](./images/graffiti_world.png)
 
 I had a thing for Mandy and drew a picture with a flattering phrase in Spanish.
-It reads, “You are the hottest in the world!”
+It reads, "You are the hottest in the world!"
 
 ![bunny](./images/graffiti_bunny.png)
 
@@ -146,10 +146,10 @@ The apple isn’t though, it looks delicious.
 
 This was for the random victim Anna.
 I had to do a scavenger hunt for the album since I could not remember what it was.
-I kept searching for albums with the word “Ace” in it.
+I kept searching for albums with the word "Ace" in it.
 But alas, going through my [last.fm library](http://www.last.fm/user/ceramic_spider/library)
 page by page finally found it.
-Luckily it was in the “A” section.
+Luckily it was in the "A" section.
 [The Possibility and the Promise](http://en.wikipedia.org/wiki/The_Possibility_and_the_Promise) by Amber Pacific.
 
 ![Jimmy Eat World Stay on My Side Tonight album cover](./images/graffiti_jimmy_eat_world.png)

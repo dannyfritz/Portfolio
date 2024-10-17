@@ -5,7 +5,7 @@ date: 2016-10-06T00:00
 ---
 <post-header />
 
-Ah, the age old question: “Is bigger better?”. Node has flipped it on its head: “Is smaller better?”.
+Ah, the age old question: "Is bigger better?". Node has flipped it on its head: "Is smaller better?".
 
 This article is going to go over the various module sizes and discuss the reasons developers would use or choose each one.
 
