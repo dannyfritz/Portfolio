@@ -16,7 +16,7 @@ hero:
 
 features:
   - title: Interests
-    details: software development 🌐, the web platform 🕸️,
+    details: Software development 🌐, the web platform 🕸️,
       nature 🌳, climate change 🌎, birds 🐦, game engines 🎮, graphics 🎨,
       walking 🚶, biking 🚲, urban planning 🏙️, and politics 🏛️.
   - title: Programming
