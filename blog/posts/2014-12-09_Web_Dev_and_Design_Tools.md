@@ -1,6 +1,5 @@
 ---
 title: "Web Development & Design Tools (December 2014)"
-summary: "What tools am I using?"
 date: 2014-12-09T00:00
 ---
 
