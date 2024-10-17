@@ -6,6 +6,9 @@ date: 2014-12-07T00:00
 
 <post-header />
 
+> [!WARNING]
+> This post is both inactive and a WIP.
+
 ## Explanation & Justification
 
 You are a master at something, how did you become one?
@@ -40,16 +43,16 @@ so it is always important to think of situations contrary to what you believe.
 
 ## Katas
 
-### Blog Post
-
+::: details Blog Post
 A blog post is a personal or company owned online publication.
 Blog posts can be long or short formats.
 Often images and different font styles are mixed in to the post.
 Make sure the blog post can exhibit a feeling and style that is true to the author’s character.
 
 [Example](https://rawgit.com/dannyfritz/design-katas/master/1/blog-post/blog.html)
+:::
 
-### User Input Form
+::: details User Input Form
 
 A user input form is a collection of fields and controls the user can input values into.
 Often these values come in groups and are of many different types.
@@ -57,8 +60,9 @@ A good example is a checkout form on any commerce website.
 The collection of fields to get the user’s address and billing information are very common and very unique.
 
 [Example](https://rawgit.com/dannyfritz/design-katas/master/1/user-input-form/dist/index.html)
+:::
 
-### Process Workflow
+::: details Process Workflow
 
 A process workflow is a series of steps a user must take in order to complete a more complicated task.
 Often each step will be a form presented to the user to break down a very large form.
@@ -67,44 +71,59 @@ Each step has validation preventing the user from navigating to the next step.
 When the user is done they are notified they have completed the process workflow.
 
 [Example](https://rawgit.com/dannyfritz/design-katas/master/1/process-workflow/dist/index.html)
+:::
 
-### Category Navigation
+::: details Category Navigation
 
 A category navigation element is a tool to help the user navigate between different sets of data.
 This could be done in a number of ways, but is traditionally done by pages.
 Try to think outside the box and add nice polish to your navigation.
 
 [Example](https://rawgit.com/dannyfritz/design-katas/master/1/category-navigation/dist/index.html)
+:::
 
-### Recipe Page
+::: info Recipe Page
+:::
 
-### Documentation Page
+::: info Documentation Page
+:::
 
-### Data Visualization
+::: info Data Visualization
+:::
 
-### Font Pairings
+::: info Font Pairings
+:::
 
-### Color Schemes
+::: info Color Schemes
+:::
 
-### Mobile and Desktop Layout
+::: info Mobile and Desktop Layout
+:::
 
-### Music Player
+::: info Music Player
+:::
 
-### Develop a Grid System
+::: info Develop a Grid System
+:::
 
 ## Koans
 
 No idea if these are good Koans yet. Feedback welcome.
 
-### Helvetica
+::: info Helvetica
+:::
 
-### Black on White
+::: info Black on White
+:::
 
-### Vertical Layouts
+::: info Vertical Layouts
+:::
 
-### Different Mediums
+::: info Different Mediums
+:::
 
-### Ways to Increase or Decrease attention
+::: info Ways to Increase or Decrease attention
+:::
 
 ## Additional Links
 
