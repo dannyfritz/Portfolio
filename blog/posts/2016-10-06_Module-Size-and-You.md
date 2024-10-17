@@ -113,10 +113,10 @@ but would still require many architectural decisions.
 Sindre Sorhus says [modules should be small](http://dailyjs.com/2015/07/02/small-modules-complexity-over-size/).
 
 > "Think of node modules as lego blocks.
-> You don’t necessarily care about the details of how it’s made.
+> You don't necessarily care about the details of how it's made.
 > All you need to know is how to use the lego blocks to build your lego castle."
 
-Eran Hammer says [tiny modules aren’t a slam dunk](https://hueniverse.com/2014/05/30/the-fallacy-of-tiny-modules/).
+Eran Hammer says [tiny modules aren't a slam dunk](https://hueniverse.com/2014/05/30/the-fallacy-of-tiny-modules/).
 
 > "The bottom line is simple – at some point, someone has to put it all together and then,
 > all the complexity is going to surface and the shit will hit the fan."
@@ -125,17 +125,17 @@ James Halliday also thinks [small modules are cool](https://gist.github.com/subs
 
 > "As much as possible, I try to build large-scale projects using lots of tiny
 > modules so I just repeat this process whenever I need some reusable component
-> that doesn’t yet exist in quite the form I need it to exist."
+> that doesn't yet exist in quite the form I need it to exist."
 
-Rich Harris says [it’s not that simple](https://medium.com/@Rich_Harris/small-modules-it-s-not-quite-that-simple-3ca532d65de4#.gn3k26gc5).
+Rich Harris says [it's not that simple](https://medium.com/@Rich_Harris/small-modules-it-s-not-quite-that-simple-3ca532d65de4#.gn3k26gc5).
 
 > "Yes, small modules are easier to write.
-> Yes, they’re easier to test.
-> Yes, it’s easier to adhere to semver.
+> Yes, they're easier to test.
+> Yes, it's easier to adhere to semver.
 > These are all things that make your life as a library author easier.
-> As we’ve seen, they come at a cost for others."
+> As we've seen, they come at a cost for others."
 
-From these quotes, it wouldn’t look like there is a popular opinion, but there really is.
+From these quotes, it wouldn't look like there is a popular opinion, but there really is.
 The popular opinion is on the side of tiny modules [currently](http://thenodeway.io/introduction/#build-small-single-purpose-modules).
 
 ## Which One is Best?

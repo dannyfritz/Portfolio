@@ -5,7 +5,7 @@ date: 2011-03-21T00:00
 ---
 <post-header />
 
-I don’t know if anyone remembers Facebook early on when people covered their
+I don't know if anyone remembers Facebook early on when people covered their
 profiles with application widgets.
 One of those applications was Graffiti.
 A lot of people had it, and I loved surprising people with high quality graffiti
@@ -26,17 +26,17 @@ I am still not a fan of Apple.
 ![Cartel Album Cover](./images/graffiti_cartel.png)
 
 I drew this for Rex before Cartel released their [self-titled album](https://en.wikipedia.org/wiki/Cartel_(Cartel_album)).
-He didn’t know what it was and I had to tell him.
+He didn't know what it was and I had to tell him.
 
 ![Where Have All the MerryMakers Gone? album cover](./images/graffiti_harvey_danger.png)
 
-This is a depiction of Harvey Danger’s album [Where Have All the Merrymakers Gone?](http://en.wikipedia.org/wiki/Where_Have_All_the_Merrymakers_Gone%3F).
+This is a depiction of Harvey Danger's album [Where Have All the Merrymakers Gone?](http://en.wikipedia.org/wiki/Where_Have_All_the_Merrymakers_Gone%3F).
 I actually met a friend of mine, Allison, via this song.
 Back when Facebook was a garbage dump of applications,
 one application allowed the user to upload a song so people can play it on your profile.
 Allison and I were both friends of Amanda and we both uploaded this song to our profiles.
 So Amanda told us both and I sent her a message on Facebook and eventually we became really good friends.
-I don’t remember what the cotton candy is about. =\
+I don't remember what the cotton candy is about. =\
 
 ![death by gun](./images/graffiti_death.png)
 
@@ -60,7 +60,7 @@ Here is the dog [Menchi (メンチ)](http://en.wikipedia.org/wiki/List_of_Excel_
 from [Excel Saga](http://en.wikipedia.org/wiki/Excel_Saga).
 Trust me, it is a dog and not a cat.
 I drew this for Sarah.
-I had just met her at this point at a LAN party at either Garrett’s house or Garrett’s cousin’s house.
+I had just met her at this point at a LAN party at either Garrett's house or Garrett's cousin's house.
 I believe she was actually sad about something at the time and I drew this to cheer her up.
 
 ![death by car](./images/graffiti_car_death.png)
@@ -69,10 +69,10 @@ Now Jon and I were having at each other in graffiti death. As you see, the perso
 
 ![chex mix](./images/graffiti_chex_mix.png)
 
-This was a drawing for Mandy. I don’t remember the joke behind [Chex Mix](http://en.wikipedia.org/wiki/Chex_Mix),
+This was a drawing for Mandy. I don't remember the joke behind [Chex Mix](http://en.wikipedia.org/wiki/Chex_Mix),
 but there was a joke here.
 I had just met her during the Summer.
-I don’t remember if we met in the math office or at a local concert.
+I don't remember if we met in the math office or at a local concert.
 
 ![planet](./images/graffiti_world.png)
 
@@ -95,7 +95,7 @@ I believe this was for Darrah on a random request. A penguin.
 
 I believe this was for Darrah again, but this is when I started getting serious about detail.
 Yellowcard announced their new album [Paper Walls](http://en.wikipedia.org/wiki/Paper_Walls) and I was excited about it.
-I’m not entirely sure what I drew here because it doesn’t match the album cover.
+I'm not entirely sure what I drew here because it doesn't match the album cover.
 I either drew an early rendition of the cover or I took a lot of liberty improvising.
 
 I remember when it first leaked to the internet and I quickly downloaded it and
@@ -120,7 +120,7 @@ I believe she has said her dream house involves many giraffes in the yard.
 ![river](./images/graffiti_river.png)
 
 I drew this for Grant.
-I don’t remember what I was trying to do.
+I don't remember what I was trying to do.
 I think it was a river in a desert, but ended up looking like a flag.
 
 ![audioslave album cover](./images/graffiti_audioslave.png)
@@ -135,12 +135,12 @@ Damn that felt good.
 ![apple](./images/graffiti_apple.png)
 
 This apple with a grammatical breakdown was for Rebekah,
-a girl I met at a party at Allison’s house and now goes to Purdue.
+a girl I met at a party at Allison's house and now goes to Purdue.
 We watched [The Shining](http://en.wikipedia.org/wiki/The_Shining_(film)) at that party.
 Rebekah and I got into a disagreement about the [purpose color words](http://dictionary.reference.com/browse/red)
 have in English.
-I don’t remember what all was said, but I think my English breakdown here is a little fishy.
-The apple isn’t though, it looks delicious.
+I don't remember what all was said, but I think my English breakdown here is a little fishy.
+The apple isn't though, it looks delicious.
 
 ![Amber Pacific The Possibility and the Promise album cover](./images/graffiti_amber_pacific.png)
 
@@ -162,7 +162,7 @@ She loves the JEW.
 ![Brand New Deja Entendu](./images/graffiti_brand_new.png)
 
 This one went to Noah.
-A depiction of Brand New’s [Deja Entendu](http://en.wikipedia.org/wiki/Deja_Entendu).
+A depiction of Brand New's [Deja Entendu](http://en.wikipedia.org/wiki/Deja_Entendu).
 I just wanted to draw an album cover of an album I really liked.
 
 ![Kirby](./images/graffiti_kirby.png)
@@ -185,7 +185,7 @@ I felt so popular.
 ![star wars](./images/graffiti_star_wars.png)
 
 This was for the random victim Gregg.
-I don’t really know Gregg, but I knew enough to know he loves Star Wars.
+I don't really know Gregg, but I knew enough to know he loves Star Wars.
 Which I too am a huge fan of.
 This is the epic [opening scene of episode IV](http://www.youtube.com/watch?v=z33-qOXOWS4&feature=related).
 I sure hope he appreciated the random gift.
@@ -199,14 +199,14 @@ The movie sucked.
 ![Thunderstorm](./images/graffiti_thunderstorm.png)
 
 I drew this for Katelynn. We had a joke about thunderstorms.
-I won’t go into any details on that one.
+I won't go into any details on that one.
 
 ![Zelda Link](./images/graffiti_zelda_link.png)
 
 Once again, a Nintendo character drawing for Adam.
 This one is [Link](http://images.wikia.com/zelda/images/9/99/Link_Wind_Waker_11.png) from Zelda: Wind Waker,
 possibly my favorite Zelda game.
-I know, you hate the cell-shading, but those of us that don’t, think it is the most fun one.
+I know, you hate the cell-shading, but those of us that don't, think it is the most fun one.
 
 ![Collective Soul Youth album cover](./images/graffiti_collective_soul.png)
 
@@ -215,20 +215,20 @@ I met her in the math office in high school.
 She was taking a make-up exam when I was goofing off in there.
 Kami and I actually talked quite a bit.
 She was a really cute girl.
-This one is an album cover for Collective Soul’s [Youth](http://en.wikipedia.org/wiki/Youth_(Collective_Soul_album)).
+This one is an album cover for Collective Soul's [Youth](http://en.wikipedia.org/wiki/Youth_(Collective_Soul_album)).
 
 ![300 the movie](./images/graffiti_300.png)
 
 This was for Jake.
 I think he drew a scene from 300 so I drew [one back](http://manhattaninfidel.com/__oneclick_uploads/2010/12/300_movie.jpg).
-I’m actually quite enthused by how well I did on his face.
+I'm actually quite enthused by how well I did on his face.
 
 ![Ninja Gaiden](./images/graffiti_ninja.png)
 
 This was the last one.
 It was for Jay.
 He drew a picture of himself as a ninja and me as a pirate getting killed by his ninja star.
-That wasn’t the first drawing of a depiction of us as pirates and ninjas where ninjas are kicking ass,
+That wasn't the first drawing of a depiction of us as pirates and ninjas where ninjas are kicking ass,
 but I retaliated this time with a sweet picture of the ninja from [Ninja Gaiden](http://th04.deviantart.net/fs26/PRE/f/2008/150/7/5/Ninja_Gaiden_Wallpaper_by_igotgame1075.jpg).
 Not the best way to retaliate.
 Oh, and I thought the game sucked.
