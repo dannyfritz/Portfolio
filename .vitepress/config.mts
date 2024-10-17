@@ -20,7 +20,7 @@ export default withMermaid({
 			{ icon: "linkedin", link: "https://linkedin.com/in/dcfritz/" },
 		],
 		footer: {
-			message: "Made with <3 by Danny Fritz using VitePress"
+			message: "Made with ❤️ by Danny Fritz using <a href=\"https://vitepress.dev/\">VitePress</a>"
 		}
 	},
 });
