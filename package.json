@@ -1,15 +1,18 @@
 {
   "type": "module",
-  "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
-  },
-  "devDependencies": {
-    "date-fns": "^4.1.0",
-    "markdown-it-mathjax3": "^4.3.2",
-    "mermaid": "^11.3.0",
-    "vitepress": "^1.4.1",
-    "vitepress-plugin-mermaid": "^2.0.17"
+  "scripts": {},
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@mathjax/mathjax-newcm-font": "^4.1.0",
+    "@mathjax/src": "^4.1.0",
+    "@mdit/plugin-abbr": "^0.22.1",
+    "@mdit/plugin-alert": "^0.22.3",
+    "@mdit/plugin-container": "^0.22.2",
+    "@mdit/plugin-footnote": "^0.22.3",
+    "@mdit/plugin-img-lazyload": "^0.22.1",
+    "@mdit/plugin-mark": "^0.22.1",
+    "@mdit/plugin-mathjax": "^0.24.1",
+    "@mdit/plugin-mathjax-slim": "^0.24.1",
+    "@mdit/plugin-tasklist": "^0.22.2"
   }
 }

@@ -1,0 +1,50 @@
+---
+  bio:
+    name: Danny Fritz
+---
+<html lang="en">
+<head>
+  <style>
+  img {
+    max-width: min(100vw, 100%);
+  }
+  mjx-assistive-mml {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  .markdown-alert-warning {
+    border: 1px solid red;
+  }
+  .details, .info {
+    border: 1px solid;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>{{ bio.name }}{%if title%} / {{ title }}{%endif%}</h1>
+    <nav>
+      <h2>Navigation:</h2>
+      <ol>
+        {%- for item in collections.nav -%}
+          <li
+            {% if page.url == item.url %}aria-current="page"{% endif %}
+          >
+            <a href="{{ item.url }}">{{ item.data.title }}</a>
+          </li>
+        {%- endfor -%}
+      </ol>
+    </nav>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+</body>
+</html>

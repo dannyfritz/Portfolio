@@ -1,10 +1,10 @@
 ---
+layout: layout
+tags: post
 title: "Chromebook Salad"
 summary: "How to run Ubuntu alongside Chrome OS using Crouton"
 date: 2014-07-11T00:00
 ---
-
-<post-header />
 
 ## Chromebooks and Chrome OS
 
@@ -21,9 +21,9 @@ The headline of this section is a little sensationalized.
 Chromebooks are [incredibly popular right now](http://blogs.computerworld.com/itbwcw/20140402/chromebook-sales-abi-research)
 and they are among the top-rated and best-selling laptops on Amazon.
 
-![Amazon](./images/crouton_amazon1.png)
+![Amazon](/blog/posts/images/crouton_amazon1.png)
 
-![Amazon](./images/crouton_amazon2.png)
+![Amazon](/blog/posts/images/crouton_amazon2.png)
 
 A lot of people don’t want a Chromebook because they are “glorified browsers” that can’t do anything useful.
 
@@ -72,7 +72,7 @@ For my Chromebook Pixel I held down `Escape + Refresh + Power` and then hit `Ctr
 
 ## Tossing the Salad (Installing)
 
-![crouton install](./images/crouton_install.png)
+![crouton install](/blog/posts/images/crouton_install.png)
 
 Now for installing Crouton. Don’t worry.
 It is super easy.

@@ -1,9 +1,10 @@
 ---
+layout: layout
+tags: post
 title: "Web Development & Design Tools (December 2014)"
 date: 2014-12-09T00:00
 ---
 
-<post-header />
 ## What is this list?
 
 This is a list of all my go-to Web Development & Design libraries, utilities, build tools, etc.

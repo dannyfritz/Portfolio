@@ -1,0 +1,132 @@
+<html lang="en">
+<head>
+  <style>
+  img {
+    max-width: min(100vw, 100%);
+  }
+  mjx-assistive-mml {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  .markdown-alert-warning {
+    border: 1px solid red;
+  }
+  .details, .info {
+    border: 1px solid;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Danny Fritz / Chromebook Salad</h1>
+    <nav>
+      <h2>Navigation:</h2>
+      <ol><li
+            
+          >
+            <a href="/">About Me</a>
+          </li><li
+            
+          >
+            <a href="/blog/">Blog</a>
+          </li><li
+            
+          >
+            <a href="/projects/">Projects</a>
+          </li></ol>
+    </nav>
+  </header>
+  <main>
+    <h2>Chromebooks and Chrome OS</h2>
+<p>Chromebooks are great machines that run Chrome OS.
+Chrome OS lets you focus on your work, boot up quickly, cost very little,
+extend your battery life, be secure, and get frequent updates.
+These machines seriously kick ass.</p>
+<p>This post goes over how to get the most out of your Chromebook.</p>
+<h2>People Don’t Want to Buy Them</h2>
+<p>The headline of this section is a little sensationalized.
+Chromebooks are <a href="http://blogs.computerworld.com/itbwcw/20140402/chromebook-sales-abi-research">incredibly popular right now</a>
+and they are among the top-rated and best-selling laptops on Amazon.</p>
+<p><img src="/blog/posts/images/crouton_amazon1.png" alt="Amazon" loading="lazy"></p>
+<p><img src="/blog/posts/images/crouton_amazon2.png" alt="Amazon" loading="lazy"></p>
+<p>A lot of people don’t want a Chromebook because they are “glorified browsers” that can’t do anything useful.</p>
+<blockquote>
+<p>&quot;I use more than a browser! How could I ever be satisfied with a Chromebook?&quot;</p>
+</blockquote>
+<p>Here is a short list of the things I hear that keep people from buying a Chromebook:</p>
+<ol>
+<li>Can’t run Microsoft Office</li>
+<li>Can’t be used for development</li>
+<li>Can’t be used to play games</li>
+</ol>
+<h2>Why You are Squabbling</h2>
+<p>Now ask yourself, how often are you using your computer solely for a browser? Chances are if you are like most people, most of the time.</p>
+<p>Microsoft Office is released on the Chrome Web Store.</p>
+<ul>
+<li><a href="https://chrome.google.com/webstore/detail/word-online/fiombgjlkfpdpkbhfioofeeinbehmajg?hl=en">Word</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/excel-online/iljnkagajgfdmfnnidjijobijlfjfgnb?hl=en">Excel</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/outlookcom/pfpeapihoiogbcmdmnibeplnikfnhoge?hl=en">Outlook</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/powerpoint-online/mdafamggmaaaginooondinjgkgcbpnhp?hl=en">Powerpoint</a></li>
+</ul>
+<p>There are also alternatives such as <a href="https://www.google.com/intl/en/drive/">Google Drive</a>.
+I definitely prefer Google Drive.</p>
+<p>And with a more traditional Linux distro running on your Chromebook, you can run games and develop programs.
+We just need a little help from our friend <a href="https://github.com/dnschneid/crouton">Crouton</a>.</p>
+<h2>Enter Crouton</h2>
+<p>Crouton enables us to run <a href="http://www.ubuntu.com/">Ubuntu</a> (and others) with ease on our Chromebooks.
+Ubuntu has official Steam support and is fully capable of development.
+Android Studio, Node.js, Sublime Text 3, Atom, Chrome, Firefox, and Opera all have Linux builds.
+Heck, you can even do C# development with <a href="http://www.mono-project.com/Main_Page">Mono</a> on Linux.
+And if you really miss Windows, you can try out <a href="http://www.winehq.org/">Wine</a> or run Windows in a <a href="https://www.virtualbox.org/">Virtual Box</a>.</p>
+<p>Crouton enables your Chromebook to do all of these things you associate with a more traditional OS such as Windows or OSX.</p>
+<h2>Preparing your Chromebook</h2>
+<p>All you need to install Crouton is a Chromebook that is in <a href="http://www.chromium.org/chromium-os/poking-around-your-chrome-os-device#TOC-Putting-your-Chrome-OS-Device-into-Developer-Mode">development mode</a>.
+<a href="http://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices">Getting into development mode</a>
+is usually a very easy process depending on the Chromebook.</p>
+<p>For my Chromebook Pixel I held down <code>Escape + Refresh + Power</code> and then hit <code>Ctrl + D</code>. And that was it.</p>
+<h2>Tossing the Salad (Installing)</h2>
+<p><img src="/blog/posts/images/crouton_install.png" alt="crouton install" loading="lazy"></p>
+<p>Now for installing Crouton. Don’t worry.
+It is super easy.</p>
+<ol>
+<li>Download Crouton from the link at the top of the <a href="https://github.com/dnschneid/crouton">Github repo</a></li>
+<li>Open up your shell with <code>Ctrl + Alt + T</code></li>
+<li>Enter <code>shell</code></li>
+<li>Enter <code>sudo sh -e ~/Downloads/crouton -t xfce</code></li>
+<li>Wait for it to finish</li>
+<li>Follow onscreen prompts for username and password</li>
+<li>Enter <code>sudo startxfce4</code></li>
+<li>Enjoy Ubuntu!</li>
+</ol>
+<h2>Some Quick Usage Notes</h2>
+<p>Now to go back and forward from Ubuntu and Chrome OS seamlessly, hit <code>Ctrl + Alt + Shift + Back/Forward</code>.
+It really is as easy as that.</p>
+<p>If you run into a problem, go ahead and search and then open up an issue on the Github <a href="https://github.com/dnschneid/crouton/issues">issue tracker</a>.
+They are super responsive and helpful.</p>
+<h2>My Personal Install Script</h2>
+<p>This is my personal crouton command and subsequent commands to bootstrap my Ubuntu install:</p>
+<pre><code class="language-sh"># Start Crouton
+sudo sh -e crouton -r trusty -t chrome,cli-extra,gnome,keyboard,audio
+</code></pre>
+<pre><code class="language-sh"># Bootstrap Ubuntu
+sudo apt-get install software-properties-common
+sudo apt-add-repository ppa:chris-lea/node.js
+sudo apt-add-repository ppa:fish-shell/release-2
+sudo apt-add-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update
+sudo apt-get install apt-file man-db ppa-purge vim git subversion mercurial terminator sublime-text fish htop nodejs tmux
+sudo apt-get dist-upgrade
+sudo apt-get autoremove
+chsh -s /usr/bin/fish
+</code></pre>
+
+  </main>
+</body>
+</html>

@@ -1,10 +1,10 @@
 ---
+layout: layout
+tags: post
 title: "Web Design Katas & Koans"
 summary: "Get better at Web Design through practice and thought-exercises"
 date: 2014-12-07T00:00
 ---
-
-<post-header />
 
 > [!WARNING]
 > This post is both inactive and a WIP.
@@ -82,50 +82,63 @@ Try to think outside the box and add nice polish to your navigation.
 [Example](https://rawgit.com/dannyfritz/design-katas/master/1/category-navigation/dist/index.html)
 :::
 
-::: info Recipe Page
+::: info
+Recipe Page
 :::
 
-::: info Documentation Page
+::: info
+Documentation Page
 :::
 
-::: info Data Visualization
+::: info
+Data Visualization
 :::
 
-::: info Font Pairings
+::: info
+Font Pairings
 :::
 
-::: info Color Schemes
+::: info
+Color Schemes
 :::
 
-::: info Mobile and Desktop Layout
+::: info
+Mobile and Desktop Layout
 :::
 
-::: info Music Player
+::: info
+Music Player
 :::
 
-::: info Develop a Grid System
+::: info
+Develop a Grid System
 :::
 
 ## Koans
 
 No idea if these are good Koans yet. Feedback welcome.
 
-::: info Helvetica
+::: info
+Helvetica
 :::
 
-::: info Black on White
+::: info
+Black on White
 :::
 
-::: info Vertical Layouts
+::: info
+Vertical Layouts
 :::
 
-::: info Different Mediums
+::: info
+Different Mediums
 :::
 
-::: info Ways to Increase or Decrease attention
+::: info
+Ways to Increase or Decrease attention
 :::
 
 ## Additional Links
 
-- http://codekata.com/kata/kata-kumite-koan-and-dreyfus/
-- https://hackdesign.org/
+- <http://codekata.com/kata/kata-kumite-koan-and-dreyfus/>
+- <https://hackdesign.org/>

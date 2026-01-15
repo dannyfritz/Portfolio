@@ -1,15 +1,16 @@
 ---
+layout: layout
+tags: post
 title: 'Module Size and You: Is Bigger Better?'
 summary: 'Pros and Cons of large and small node modules.'
 date: 2016-10-06T00:00
 ---
-<post-header />
 
 Ah, the age old question: "Is bigger better?". Node has flipped it on its head: "Is smaller better?".
 
 This article is going to go over the various module sizes and discuss the reasons developers would use or choose each one.
 
-![Small vs Big Dogs](./images/924797_878671665545667_385439750_n.webp)
+![Small vs Big Dogs](/blog/posts/images/924797_878671665545667_385439750_n.webp)
 
 ## Tiny Modules
 
@@ -40,7 +41,7 @@ Tiny modules are actually about complexity minimalism and not about how few line
 - Hard to find
 - Does not solve complex problems
 
-![Cats of various sizes](./images/tumblr_lpseff4tbm1qi805wo1_500.jpg)
+![Cats of various sizes](/blog/posts/images/tumblr_lpseff4tbm1qi805wo1_500.jpg)
 
 ## Monolithic Modules
 
@@ -72,7 +73,7 @@ It exposes a simpler API to allow the user to perform complex tasks by interacti
 - Hard to compose
 - Hard to maintain
 
-![Pug dogs of various sizes](./images/1353440635851774.jpg)
+![Pug dogs of various sizes](/blog/posts/images/1353440635851774.jpg)
 
 ## Meta Modules
 

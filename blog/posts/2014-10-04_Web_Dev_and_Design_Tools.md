@@ -1,9 +1,9 @@
 ---
+layout: layout
+tags: post
 title: "Web Development & Design Tools (October 2014)"
 date: 2014-10-04T00:00
 ---
-
-<post-header />
 
 ## What is this list?
 

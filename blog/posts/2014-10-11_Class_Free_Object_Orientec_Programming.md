@@ -1,10 +1,10 @@
 ---
+layout: layout
+tags: post
 title: "Class Free Object Oriented Programming"
 summary: "Augmenting with MixIns"
 date: 2014-10-11T00:00
 ---
-
-<post-header />
 
 > I used to think that the important innovation of JavaScript was prototypal inheritance.
 > I now think it is class free object oriented programming.
@@ -31,7 +31,7 @@ You make a class and inherit from it.
 And subsequent classes can inherit from that class.
 One root class, and a tree of classes stemming from there.
 
-![Class Hierarchy](./images/oop_hierarchy.gif)
+![Class Hierarchy](/blog/posts/images/oop_hierarchy.gif)
 
 This paradigm is super easy to grasp, but also super easy to create traps for yourself.
 Like JavaScript, this methodology is full of [foot-guns](http://www.urbandictionary.com/define.php?term=footgun&defid=7493319).
@@ -69,7 +69,7 @@ Oh, and `Goat` doesn't `swim` like `Duck` and `Alligator`.
 So we need to create a `SwimmingAnimal` to account for that and assign `Alligator` and `Duck` to it, but not `Goat`.
 But wait, `Duck` can't inherit from `FlyingAnimal` in addition to `SwimmingAnimal` and `WalkingAnimal`!
 
-![Psyduck](./images/oop_psyduck.gif)
+![Psyduck](/blog/posts/images/oop_psyduck.gif)
 
 This is why a single inheritance taxonomy is not a good way of organizing our objects in programming.
 Most of the languages have ways of accounting for this.

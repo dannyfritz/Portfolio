@@ -1,0 +1,8 @@
+---
+  layout: layout
+  title: Projects
+  tags: nav
+---
+{% for project in collections.project %}
+    <a href="{{ project.url }}">{{ project.data.title }}</a>
+{% endfor %}

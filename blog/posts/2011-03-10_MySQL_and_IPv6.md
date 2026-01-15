@@ -1,9 +1,10 @@
 ---
+layout: layout
+tags: post
 title: "MySQL and IPv6"
 summary: "How to represent large numbers in MySQL"
 date: 2011-03-10T00:00
 ---
-<post-header />
 
 I work on DNS Management software for Purdue's network security department called [Roster](http://code.google.com/p/roster-dns-management/).
 It is a very fun and interesting project to work on.
