@@ -1,0 +1,72 @@
+:root {
+  font-family: monospace;
+  font-size: 1rem;
+  color: #eeeeee;
+}
+* {
+  font-size: 1rem;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #030202;
+  min-height: 100dvh;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.terminal {
+  display: flex;
+  flex-direction: column;
+  width: 80ch;
+}
+h1, h2, h3, h4 {
+  margin: 1em 0;
+}
+h1 {
+  text-transform: uppercase;
+}
+h2 {
+  color: #c7cd95;
+}
+h3 {
+  color: #c7cd95;
+}
+ol {
+  padding-inline-start: 6ch;
+}
+ul {
+  padding-inline-start: 2ch;
+}
+ul > ::marker {
+  content: '- '
+}
+a {
+  color: inherit;
+}
+img {
+  max-width: min(100vw, 100%);
+}
+mjx-assistive-mml {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.markdown-alert-warning {
+  border: 1px solid red;
+}
+.details, .info {
+  border: 1px solid;
+}

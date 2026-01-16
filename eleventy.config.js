@@ -8,7 +8,7 @@ import { container } from "@mdit/plugin-container";
 import { abbr } from "@mdit/plugin-abbr";
 
 export default async function(eleventyConfig) {
-	// Configure Eleventy
+  eleventyConfig.addPassthroughCopy("styles.css");
 	eleventyConfig.addPassthroughCopy("blog/posts/images");
 	eleventyConfig.addPassthroughCopy("projects/images");
   eleventyConfig.addGlobalData("generatedDate", new Date());
