@@ -1,0 +1,194 @@
+[
+  {
+    "title": "C++ 3D Engine",
+    "image": "/projects/images/CS334.png",
+    "description": "Coded almost entirely in C++ standard libraries. fltk used to instantiate the window and OpenGL called only to copy the framebuffer to the screen.",
+    "links": [
+      {
+        "url": "http://www.youtube.com/watch?v=CMEJMHo0OM8",
+        "text": "3d Models",
+        "fa-icon": "fab fa-youtube"
+      },
+      {
+        "url": "http://www.youtube.com/watch?v=9gH3nVMhmro",
+        "text": "Lighting",
+        "fa-icon": "fab fa-youtube"
+      },
+      {
+        "url": "http://www.youtube.com/watch?v=7evNCGAIhDQ",
+        "text": "Environment Mapping",
+        "fa-icon": "fab fa-youtube"
+      }
+    ]
+  },
+  {
+    "title": "Cole Directory",
+    "image": "/projects/images/directory.png",
+    "description": "A map of all businesses and public spaces in Cole.",
+    "links": [
+      {
+        "url": "https://directory.coleinfo.com",
+        "text": "Website",
+        "fa-icon": "fas fa-link"
+      },
+      {
+        "url": "https://github.com/dannyfritz/cole-directory-web-client",
+        "text": "Frontend Code",
+        "fa-icon": "fab fa-github"
+      },
+      {
+        "url": "https://github.com/dannyfritz/cole-directory-server",
+        "text": "Backend Code",
+        "fa-icon": "fab fa-github"
+      }
+    ]
+  },
+  {
+    "title": "Purina Smell",
+    "image": "/projects/images/purinasmell.jpg",
+    "description": "A map showing the aproximate area where you can smell the Purina pet food plant.",
+    "links": [
+      {
+        "url": "http://www.purina-smell.com/",
+        "text": "Website",
+        "fa-icon": "fas fa-link"
+      },
+      {
+        "url": "https://gitlab.com/dannyfritz/smell-map",
+        "text": "Code",
+        "fa-icon": "fab fa-gitlab"
+      }
+    ]
+  },
+  {
+    "title": "SPH",
+    "description": "This is a CUDA implementation of Smooth Particle Hyrodynamics.",
+    "image": "/projects/images/SPH.png",
+    "links": [
+      {
+        "url": "http://player.vimeo.com/video/34997187?title=0&byline=0&portrait=0&color=d24f21&autoplay=1",
+        "text": "Video",
+        "fa-icon": "fab fa-youtube"
+      },
+      {
+        "url": "https://bitbucket.org/gwindes/super-pluvious-hydration-cuda-opengl",
+        "text": "Bitbucket",
+        "fa-icon": "fab fa-bitbucket"
+      }
+    ]
+  },
+  {
+    "title": "Message in a Bottle",
+    "image": "/projects/images/MessageInABottle.png",
+    "description": "A Message management library for LOVE 0.7.0 aiming to be unobtrusive and easy to use.",
+    "links": [
+      {
+        "url": "http://love2d.org/wiki/Message_in_a_Bottle",
+        "text": "Documentation",
+        "fa-icon": "fa fa-list-alt"
+      },
+      {
+        "url": "https://bitbucket.org/dannyfritz/message-in-a-bottle/",
+        "text": "Bitbucket",
+        "fa-icon": "fab fa-bitbucket"
+      }
+    ]
+  },
+  {
+    "title": "Blurt!",
+    "image": "/projects/images/Blurt.png",
+    "description": "A realtime shoutbox feed utilizing Node.js and Mongodb.",
+    "links": [
+      {
+        "url": "https://github.com/dannyfritz/Blurt",
+        "text": "GitHub",
+        "fa-icon": "fab fa-github"
+      }
+    ]
+  },
+  {
+    "title": "Lovely Expressions",
+    "image": "/projects/images/LovelyExpressions.png",
+    "description": "A paint-esque program. Supports color sampling and animations.",
+    "links": [
+      {
+        "url": "http://love2d.org/forums/viewtopic.php?f=5&t=1193#p11650",
+        "text": "Download",
+        "fa-icon": "fa fa-download"
+      }
+    ]
+  },
+  {
+    "title": "LOVEshow",
+    "image": "/projects/images/LOVEshow.png",
+    "description": "A simple photo viewer. It automatically finds all photos in the current directory and displays them in a horizontal line.",
+    "links": [
+      {
+        "url": "https://bitbucket.org/dannyfritz/loveshow/",
+        "text": "Bitbucket",
+        "fa-icon": "fab fa-bitbucket"
+      }
+    ]
+  },
+  {
+    "title": "Roster DNS Management",
+    "image": "/projects/images/Roster.png",
+    "description": "This is a software suite to help manage and maintain BIND DNS config files.",
+    "links": [
+      {
+        "url": "https://code.google.com/p/roster-dns-management/",
+        "text": "Google Code",
+        "fa-icon": "fa fa-code"
+      }
+    ]
+  },
+  {
+    "title": "Noah's Ark",
+    "description": "Help Noah find all the missing animals by searching around the world. Won 3rd Place in the 48 hour Reddit Game Jam #5.",
+    "image": "/projects/images/NoahsArk.png",
+    "links": [
+      {
+        "url": "https://www.youtube.com/watch?v=pMoHeUvz9lg",
+        "text": "Timelapse",
+        "fa-icon": "fab fa-youtube"
+      },
+      {
+        "url": "https://bitbucket.org/dannyfritz/noahs-ark/",
+        "text": "Bitbucket",
+        "fa-icon": "fab fa-bitbucket"
+      },
+      {
+        "url": "https://bitbucket.org/dannyfritz/noahs-ark/downloads/Noahs_Ark-01-Windows.zip",
+        "text": "Windows",
+        "fa-icon": "fab fa-windows"
+      },
+      {
+        "url": "https://bitbucket.org/dannyfritz/noahs-ark/downloads/Noahs_Ark-01-OSX.zip",
+        "text": "OSX",
+        "fa-icon": "fab fa-apple"
+      }
+    ]
+  },
+  {
+    "title": "Rebound",
+    "description": "A glorified version of Pong spiced up with gravity wells, powerups, particle systems, and AI. Game has been downloaded 1000+ times.",
+    "image": "/projects/images/Rebound.jpg",
+    "links": [
+      {
+        "url": "https://bitbucket.org/dannyfritz/rebound/",
+        "text": "Bitbucket",
+        "fa-icon": "fab fa-bitbucket"
+      },
+      {
+        "url": "https://bitbucket.org/dannyfritz/rebound/downloads/Rebound-10-Win.zip",
+        "text": "Windows",
+        "fa-icon": "fab fa-windows"
+      },
+      {
+        "url": "https://bitbucket.org/dannyfritz/rebound/downloads/Rebound-10-OSX.zip",
+        "text": "OSX",
+        "fa-icon": "fab fa-apple"
+      }
+    ]
+  }
+]

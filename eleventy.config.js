@@ -10,6 +10,8 @@ import { abbr } from "@mdit/plugin-abbr";
 export default async function(eleventyConfig) {
 	// Configure Eleventy
 	eleventyConfig.addPassthroughCopy("blog/posts/images");
+	eleventyConfig.addPassthroughCopy("projects/images");
+  eleventyConfig.addGlobalData("generatedDate", new Date());
   const mathjaxInstance = await createMathjaxInstance({});
   eleventyConfig.amendLibrary("md", (mdLib) =>
     mdLib

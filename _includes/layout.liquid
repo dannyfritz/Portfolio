@@ -4,6 +4,7 @@
 ---
 <html lang="en">
 <head>
+  <meta name="generator" content="{{ eleventy.generator }}">
   <style>
   img {
     max-width: min(100vw, 100%);
@@ -26,22 +27,25 @@
     border: 1px solid;
   }
   </style>
+  <title>{{ bio.name }}{%if title%} / {{ title }}{%endif%}</title>
 </head>
 <body>
   <header>
-    <h1>{{ bio.name }}{%if title%} / {{ title }}{%endif%}</h1>
+    <h1>{{ bio.name }}</h1>
+    <p>Generated on {{ generatedDate | date: "%Y-%m-%d" }}</p>
     <nav>
       <h2>Navigation:</h2>
       <ol>
         {%- for item in collections.nav -%}
-          <li
-            {% if page.url == item.url %}aria-current="page"{% endif %}
-          >
-            <a href="{{ item.url }}">{{ item.data.title }}</a>
-          </li>
+        <li
+          {% if page.url == item.url %}aria-current="page"{% endif %}
+        >
+          <a href="{{ item.url }}">{{ item.data.title }}</a>
+        </li>
         {%- endfor -%}
       </ol>
     </nav>
+    {%if title%}<h2>{{ title }}</h2>{%endif%}
   </header>
   <main>
     {{ content }}

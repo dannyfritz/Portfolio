@@ -3,6 +3,17 @@
   title: Projects
   tags: nav
 ---
-{% for project in collections.project %}
-    <a href="{{ project.url }}">{{ project.data.title }}</a>
+<ol>
+{% for project in projects %}
+  <li>
+    <h3>{{ project.title }}</h3>
+    <img src="{{project.image}}">
+    <p>{{ project.description }}</p>
+    <ul>
+      {% for link in project.links %}
+      <li><a href="{{ link.url }}">{{ link.text }}</a>
+      {% endfor %}
+    </ul>
+  </li>
 {% endfor %}
+</ol>

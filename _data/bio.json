@@ -1,0 +1,111 @@
+{
+  "name": "Danny Fritz",
+  "description": "Passionate about software, graphics, environmentalism, biking, public transit, urban planning, education, and birds.",
+  "tagline": "Having fun with technology and respecting nature",
+  "features": [
+    {
+      "title": "Interests",
+      "details": "Software development, the web platform, nature, climate change, birds, game engines, graphics, walking, biking, urban planning, and politics."
+    },
+    {
+      "title": "Programming",
+      "details": "Rust & TypeScript are my favorite programming languages to use. But I know and have used many more!"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Profile",
+      "image": "me.jpg",
+      "links": [
+        {
+          "url": "https://docs.google.com/document/d/13oyGnlpDQ9pL2itJE5q0HtkXgAiE-qNeupt_i3KR8xg/edit?hl=en&authkey=COe_jtYO",
+          "text": "Résumé",
+          "fa-icon": "fa fa-file-alt"
+        },
+        {
+          "url": "mailto:me@dannyfritz.com",
+          "text": "Email",
+          "fa-icon": "fas fa-envelope"
+        },
+        {
+          "url": "https://www.linkedin.com/in/dcfritz",
+          "text": "LinkedIn",
+          "fa-icon": "fab fa-linkedin"
+        },
+        {
+          "url": "https://ebird.org/profile/OTI1NzM5",
+          "text": "eBird",
+          "fa-icon": "fas fa-crow"
+        }
+      ]
+    },
+    {
+      "title": "Code",
+      "image": "",
+      "links": [
+        {
+          "url": "https://codeberg.org/dannyfritz",
+          "text": "Codeberg",
+          "fa-icon": "fab fa-code"
+        },
+        {
+          "url": "https://github.com/dannyfritz",
+          "text": "GitHub",
+          "fa-icon": "fab fa-github"
+        },
+        {
+          "url": "https://bitbucket.org/dannyfritz",
+          "text": "BitBucket",
+          "fa-icon": "fab fa-bitbucket"
+        },
+        {
+          "url": "https://gitlab.com/dannyfritz",
+          "text": "GitLab",
+          "fa-icon": "fab fa-gitlab"
+        },
+        {
+          "url": "https://gist.github.com/dannyfritz",
+          "text": "GitHub Gists",
+          "fa-icon": "fab fa-github"
+        },
+        {
+          "url": "https://web.archive.org/web/20111002083718/https://code.google.com/u/DannyFritz/",
+          "text": "Google Code (archive.org)",
+          "fa-icon": "fa fa-code"
+        }
+      ]
+    },
+    {
+      "title": "Corvid Coder",
+      "image": "Crow.png",
+      "links": [
+        {
+          "url": "http://corvidcoder.com/",
+          "text": "Website",
+          "fa-icon": "fas fa-crow"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCpVBxWF178g5M24wkYDxScA",
+          "text": "Watch",
+          "fa-icon": "fab fa-youtube"
+        },
+        {
+          "url": "https://github.com/corvid-coder",
+          "text": "Code",
+          "fa-icon": "fab fa-github"
+        }
+      ]
+    },
+    {
+      "title": "Music",
+      "image": "",
+      "links": [
+        {
+          "url": "https://soundcloud.com/technocat",
+          "text": "SoundCloud",
+          "fa-icon": "fa fa-headphones"
+        }
+      ]
+    }
+  ]
+}

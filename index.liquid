@@ -2,21 +2,15 @@
   layout: layout
   title: About Me
   tags: nav
-  home:
-    text: Personal Musings
-    tagline: Having fun with technology and respecting nature
-  features:
-    - title: Interests
-      details: Software development, the web platform,
-        nature, climate change, birds, game engines, graphics,
-        walking, biking, urban planning, and politics.
-    - title: Programming
-      details: Rust & TypeScript are my favorite programming languages to use.
-               But I know and have used many more!
 ---
 
-<h2>HOME WOO</h2>
-
-<p>
-Welcome to my homepage
-</p>
+{%- for section in bio.sections -%}
+<h3>{{section.title}}</h3>
+<ol>
+  {%- for link in section.links -%}
+  <li>
+    <a href="{{link.url}}">{{link.text}}</a>
+  </li>
+  {%- endfor -%}
+</ol>
+{%- endfor -%}
