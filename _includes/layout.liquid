@@ -13,11 +13,11 @@
   <div class="terminal">
     <header>
       <h1><a href="/">{{ bio.name | upcase }}()</a></h1>
-      <p>User Commands</p>
+      <p>User Manual</p>
       <p class="generated-date">Generated on<br>{{ generatedDate | date: "%Y-%m-%d" }}</p>
     </header>
     <nav>
-      <h2>Navigation:</h2>
+      <h2>NAVIGATION</h2>
       <ol>
         {%- for item in collections.nav -%}
         <li

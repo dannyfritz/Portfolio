@@ -21,6 +21,10 @@ header {
   display: flex;
   justify-content: space-between;
 }
+pre {
+  overflow-x: auto;
+  color: #b3dcee;
+}
 .terminal {
   display: flex;
   flex-direction: column;
@@ -39,7 +43,7 @@ h3 {
   color: #c7cd95;
 }
 ol {
-  padding-inline-start: 6ch;
+  padding-inline-start: 3ch;
 }
 ul {
   padding-inline-start: 2ch;

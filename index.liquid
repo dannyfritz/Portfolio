@@ -4,13 +4,17 @@
   tags: nav
 ---
 
+<ul>
 {%- for section in bio.sections -%}
-<h3>{{section.title}}</h3>
-<ol>
-  {%- for link in section.links -%}
-  <li>
-    <a href="{{link.url}}">{{link.text}}</a>
-  </li>
-  {%- endfor -%}
-</ol>
+<li>
+  <h3>{{section.title}}</h3>
+  <ol>
+    {%- for link in section.links -%}
+    <li>
+      <a href="{{link.url}}">{{link.text}}</a>
+    </li>
+    {%- endfor -%}
+  </ol>
+</li>
 {%- endfor -%}
+</ul>
