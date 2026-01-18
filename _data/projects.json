@@ -1,5 +1,16 @@
 [
   {
+    "title": "wx-cli",
+    "image": "/projects/images/wx-cli.png",
+    "description": "CLI application to display the National Weather Service forecast, observation, and alerts for a lat/long",
+    "links": [
+      {
+        "url": "https://codeberg.org/dannyfritz/wx-cli",
+        "text": "Codeberg"
+      }
+    ]
+  },
+  {
     "title": "C++ 3D Engine",
     "image": "/projects/images/CS334.png",
     "description": "Coded almost entirely in C++ standard libraries. fltk used to instantiate the window and OpenGL called only to copy the framebuffer to the screen.",
