@@ -12,6 +12,7 @@ export default async function(eleventyConfig) {
   eleventyConfig.setOutputDirectory("docs");
   eleventyConfig.addPassthroughCopy("styles.css");
   eleventyConfig.addPassthroughCopy("CNAME");
+  eleventyConfig.addPassthroughCopy("favicon.png");
 	eleventyConfig.addPassthroughCopy("blog/posts/images");
 	eleventyConfig.addPassthroughCopy("projects/images");
   eleventyConfig.addGlobalData("generatedDate", new Date());
