@@ -9,6 +9,7 @@ import { abbr } from "@mdit/plugin-abbr";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 
 export default async function(eleventyConfig) {
+  eleventyConfig.setOutputDirectory("docs");
   eleventyConfig.addPassthroughCopy("styles.css");
 	eleventyConfig.addPassthroughCopy("blog/posts/images");
 	eleventyConfig.addPassthroughCopy("projects/images");

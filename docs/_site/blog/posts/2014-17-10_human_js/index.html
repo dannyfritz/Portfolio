@@ -1,0 +1,163 @@
+<html lang="en">
+<head>
+  <meta name="generator" content="Eleventy v3.1.2">
+  <link rel="stylesheet" href="/styles.css">
+  </style>
+  <title>Danny Fritz / Human JS</title>
+</head>
+<body>
+  <div class="terminal">
+    <header>
+      <h1><a href="/">DANNY FRITZ()</a></h1>
+      <p>User Manual</p>
+      <p class="generated-date">Generated on<br>2026-01-17</p>
+    </header>
+    <nav>
+      <h2>NAVIGATION</h2>
+      <ol><li
+          
+        >
+          <a href="/">About Me</a>
+        </li><li
+          
+        >
+          <a href="/blog/">Blog</a>
+        </li><li
+          
+        >
+          <a href="/projects/">Projects</a>
+        </li></ol>
+    </nav>
+    <main>
+      <h2>Human JS</h2>
+      <p>Published on <time datetime="2014-07-10T00:00">2014-07-10</time></p>
+      <h2>The Ebook</h2>
+<p>I read a free ebook titled <a href="http://read.humanjavascript.com/">Human JS</a>.
+It was a quick and good read.
+I highly recommend it.
+It made me reflect a lot on the code I have written and makes me want to steam
+forward with new ideas while keeping code clean and simple.</p>
+<p>The book goes over common problems, such as choosing libraries &amp; writing hard to read code, how to organize full client JavaScript applications, and conventions for writing maintainable applications.</p>
+<p>Read it, it only takes a couple hours: <a href="http://read.humanjavascript.com/">Human JS</a></p>
+<p>The rest of this post is some of my personal takeaways from the book.</p>
+<h2>Human Readable Code</h2>
+<p>The <a href="http://read.humanjavascript.com/ch03-code-for-humans.html">third chapter</a>
+goes over how to write code that is easily digestable.</p>
+<p>Compare this example from the book:</p>
+<pre><code class="language-ts">// Assume this is an array of strings from somewhere
+var myArray = [&quot;hello&quot;, &quot;something&quot;, &quot;awesome&quot;];
+
+if (~myArray.indexOf(&quot;hello&quot;)) {
+  // Under what circumstances does this get called?
+}
+</code></pre>
+<p>With this:</p>
+<pre><code class="language-ts">// Same array:
+var myArray = [&quot;hello&quot;, &quot;something&quot;, &quot;awesome&quot;];
+if (_(myArray).contains(&quot;hello&quot;)) {
+  // Also pretty freakin' clear!
+}
+</code></pre>
+<p>This is something I strive for when writing code,
+but in practice often throw out the window to meet deadlines.
+Often this is to my chagrin when I'm the only developer capable of fixing bugs that come back.
+I often use <a href="http://lodash.com/">LoDash</a> as a quick way to boil simple things down to digestible function calls.
+But using LoDash has also gotten me into trouble when I start chaining all its methods together
+and creating stuff that makes other developers scratch their head when they come across it.
+It is a little bit of a trade-off in that I can write something concise with LoDash,
+but many other developers don't know the functions and don't have the LoDash
+documentation always up in their browser to reference like I often do.</p>
+<h2>Refactor and Organize</h2>
+<p>Another <a href="http://read.humanjavascript.com/ch04-organizing-your-code.html#refactor-early-refactor-often">chapter</a>
+goes over refactoring.
+A common mantra is to &quot;Refactor early, refactor often&quot;.
+I can't agree with this more.
+Recently I was working on a complicated tree control and it ended up being a 3000+ line mess of a file.
+I despise these huge files.
+I refactored it a couple times, but obviously not enough.
+There ended up being no clear separation of view, controller, model, and service.
+The view is the most separated of the 4, but the rest have ended up there in that file.
+It became a hot mess to maintain and near impossible to add new features.
+If I did it again, I would be more proactive about keeping service calls, models, and business logic separate.</p>
+<h2>Suggested Conventions for Backbone and Ampersand</h2>
+<p>Most of the rest of the book goes over good ways to use <a href="http://backbonejs.org/">Backbone</a>
+and <a href="http://ampersandjs.com/">Ampersand.js</a> views and models.
+Which is all very useful if you are looking to learn one of the libraries.
+The two libraries are nearly identical in use, but Ampersand.js comes with more goodies
+and I feel has a better concern for maintainability.</p>
+<h2>Cool Things</h2>
+<p>Check out their index.html example:</p>
+<pre><code class="language-html">&lt;!doctype html&gt;
+
+&lt;!– served with &lt;3, &amp;yet –&gt;
+
+&lt;script&gt;
+  window.times = { start: new Date() };
+&lt;/script&gt;
+&lt;link href=&quot;/&amp;!.css&quot; rel=&quot;stylesheet&quot; /&gt;
+&lt;script src=&quot;/&amp;!.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<p>The entire clientside application is launched from that!</p>
+<p>The suggested folder layout is pretty good in my opinion too:</p>
+<p><strong>models</strong> (folder):</p>
+<blockquote>
+<p>Contains definitions for all models and collections. As a sanity check, none of these files should have anything related to DOM elements or DOM manipulation.</p>
+</blockquote>
+<p><strong>pages</strong> (folder):</p>
+<blockquote>
+<p>The pages folder is where we store the views that represent a page rendered at a specific URL. Generally these are still just &quot;views&quot; but since they play a special role to our app, it's useful to put these in their own folder.</p>
+</blockquote>
+<p><strong>views</strong> (folder):</p>
+<blockquote>
+<p>The views folder contains all of our Backbone views (that are not pages), so things like the main application view and views for rendering specific types of models, etc.</p>
+</blockquote>
+<p><strong>helpers</strong> (folder):</p>
+<blockquote>
+<p>Here is where we put any clientside modules that are application specific, but are useful in other modules. For example, we might use this to put a helper module for reporting metrics back to our server that we want to do from several places in the app.</p>
+</blockquote>
+<p><strong>forms</strong>: (folder):</p>
+<blockquote>
+<p>A place to store any form views we might have. We often want to reuse a form for both creating and editing a type of data.</p>
+</blockquote>
+<p><strong>app.js</strong> (file):</p>
+<blockquote>
+<p>This is the main entry point for our application. It creates an app global variable and instantiates the main models and views.</p>
+</blockquote>
+<p><strong>router.js</strong> (file):</p>
+<blockquote>
+<p>This is our clientside (Backbone) router. It contains a list of URL routes at the top and corresponding handlers, whose job it is to instantiate the right views with the right data from the url and emit instantiated page views that can be rendered into the page container by our main view.</p>
+</blockquote>
+<p><strong>libraries</strong> (folder):</p>
+<blockquote>
+<p>This contains all the libraries we're using that are not structured like CommonJS modules. So things like jQuery and jQuery plugins will go here.</p>
+</blockquote>
+<p><strong>templates.js</strong> (file):</p>
+<blockquote>
+<p>This is the module that gets created from the templates folder (see next). It's a single file with a function for each clientside template. This file gets auto-generated so don't try to edit it directly. Putting it in here lets us also require and use our template functions easily within our views. Each template has a corresponding template function. Each function takes your context object and returns just a string of HTML.</p>
+</blockquote>
+<p><strong>templates</strong> (folder):</p>
+<blockquote>
+<p>Here is where we keep all our Jade files that get used in the client application. Anytime you're wanting to create HTML within the app, use a Jade template and put it in here. You can structure this folder in whatever fashion makes sense for your application. The important thing to understand is that folders become part of the template.js module structure. For example, in this template you'll see that there's a pages folder within the templates folder with a file called home.jade. To use the function that got created from that, you'd access it as follows:</p>
+</blockquote>
+<p>It categorically <a href="http://read.humanjavascript.com/ch01-introduction.html#picking-your-tools">disses a few libraries</a>
+that I agree with.
+Namely Angular, Ember, and Knockout.
+They just do too much magic.
+You end up writing a lot of code to try and do something a library wasn't intended to do
+instead of just writing something the JavaScript way cleanly the first time.</p>
+<ol>
+<li>Tools where you build the app by writing code in JavaScript files,
+not by trying to declare too much of your app logic in your HTML <strong>(no AngularJS, sorry)</strong>.
+Having to write application logic inside of a template feels like a violation of separation of concerns.
+It has some short-term payoffs and can make simple things really easy.
+However, when you want more control it can be difficult to do within the constraints of the framework.</li>
+<li>Model state is completely decoupled from view state <strong>(no Knockout.js)</strong>.
+Again, this is to separate concerns.</li>
+<li>As little magic as possible <strong>(no Ember)</strong>.
+Similar to Item 1 this is primarily to avoid requiring too much framework-specific knowledge.</li>
+</ol>
+
+    </main>
+  </div>
+</body>
+</html>

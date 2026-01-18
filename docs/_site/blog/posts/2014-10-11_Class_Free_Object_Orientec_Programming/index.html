@@ -1,0 +1,253 @@
+<html lang="en">
+<head>
+  <meta name="generator" content="Eleventy v3.1.2">
+  <link rel="stylesheet" href="/styles.css">
+  </style>
+  <title>Danny Fritz / Class Free Object Oriented Programming</title>
+</head>
+<body>
+  <div class="terminal">
+    <header>
+      <h1><a href="/">DANNY FRITZ()</a></h1>
+      <p>User Manual</p>
+      <p class="generated-date">Generated on<br>2026-01-17</p>
+    </header>
+    <nav>
+      <h2>NAVIGATION</h2>
+      <ol><li
+          
+        >
+          <a href="/">About Me</a>
+        </li><li
+          
+        >
+          <a href="/blog/">Blog</a>
+        </li><li
+          
+        >
+          <a href="/projects/">Projects</a>
+        </li></ol>
+    </nav>
+    <main>
+      <h2>Class Free Object Oriented Programming</h2>
+      <p>Published on <time datetime="2014-10-11T00:00">2014-10-11</time></p>
+      <blockquote>
+<p>I used to think that the important innovation of JavaScript was prototypal inheritance.
+I now think it is class free object oriented programming.
+I think that is JavaScript's <em>gift</em> to humanity.
+That is the thing that makes it really interesting, special, and an important language.</p>
+</blockquote>
+<p><a href="https://www.youtube.com/watch?v=bo36MrBfTk4#t=2020">Douglas Crockford: The Better Parts – JSConfUY 2014</a></p>
+<h2>Tell Me More</h2>
+<p>I think Douglas Crockford is not only on to something here, but completely right.
+Let's talk about what it means, why it is hard to grasp for some programmers, and how it can benefit you.</p>
+<h2>What Class Free Object Oriented Programming Means</h2>
+<p>First, we need to cover what <a href="http://en.wikipedia.org/wiki/Object-oriented_programming">Object Oriented Programming</a> (OOP) means.
+There are many types of OOP that are in use today.</p>
+<h3>Class Based OOP</h3>
+<p>This is your classical example of OOP.
+The easiest to understand form is <a href="http://docs.oracle.com/javase/tutorial/java/concepts/inheritance.html">single inheritance</a>.
+You make a class and inherit from it.
+And subsequent classes can inherit from that class.
+One root class, and a tree of classes stemming from there.</p>
+<p><img src="/blog/posts/images/oop_hierarchy.gif" alt="Class Hierarchy" loading="lazy"></p>
+<p>This paradigm is super easy to grasp, but also super easy to create traps for yourself.
+Like JavaScript, this methodology is full of <a href="http://www.urbandictionary.com/define.php?term=footgun&amp;defid=7493319">foot-guns</a>.</p>
+<blockquote>
+<p>A podiatric penetration purposed pistol.
+A gun which is apparently designed for shooting yourself in the foot.</p>
+</blockquote>
+<h2>A Duck, an Alligator, and a Goat</h2>
+<p>Let's say we want to create a <code>Duck</code> class in this paradigm.</p>
+<ol>
+<li>Inherit from the base <code>Object</code> and create an <code>Animal</code> class.</li>
+<li>Inherit from the <code>Animal</code> class and create a <code>Duck</code> class.</li>
+<li>Define <code>swim</code>, <code>walk</code>, <code>talk</code>, and <code>fly</code> methods on <code>Duck</code>.</li>
+</ol>
+<p>Easy right?
+But wait a second.
+New requirements have come in and you need to define <code>Alligator</code> and <code>Goat</code> now.</p>
+<ol>
+<li>Inherit from <code>Animal</code> and create an <code>Alligator</code> class.</li>
+<li>Define <code>walk</code>, <code>swim</code>, and <code>talk</code> on <code>Alligator</code>.</li>
+<li>Inherit from <code>Animal</code> and create a <code>Goat</code> class.</li>
+<li>Define <code>walk</code> and <code>talk</code> on <code>Goat</code>.</li>
+</ol>
+<p>All done! Okay, time to refactor and clean up.
+<code>walk</code>, <code>swim</code>, <code>fly</code>, and <code>talk</code> are not specific to those animals are they?
+We should probably move them to a shared class to be more <a href="http://en.wikipedia.org/wiki/Don't_repeat_yourself">DRY</a>.
+We should move the methods to <code>Animal</code> so they can be shared among the animals and written once.
+Cool, now <code>walk</code>, <code>talk</code>, <code>fly</code>, and <code>swim</code> are written only once!</p>
+<p>But wait, <code>Alligator</code> shouldn't be able to <code>fly</code>!
+We need an additional class between <code>Animal</code> and the animals to account for this.
+Let's create a <code>FlyingAnimal</code> inheriting from <code>Animal</code> so we can account for the <code>Duck</code> that flies.
+Oh, and <code>Goat</code> doesn't <code>swim</code> like <code>Duck</code> and <code>Alligator</code>.
+So we need to create a <code>SwimmingAnimal</code> to account for that and assign <code>Alligator</code> and <code>Duck</code> to it, but not <code>Goat</code>.
+But wait, <code>Duck</code> can't inherit from <code>FlyingAnimal</code> in addition to <code>SwimmingAnimal</code> and <code>WalkingAnimal</code>!</p>
+<p><img src="/blog/posts/images/oop_psyduck.gif" alt="Psyduck" loading="lazy"></p>
+<p>This is why a single inheritance taxonomy is not a good way of organizing our objects in programming.
+Most of the languages have ways of accounting for this.
+But to me, they at
+<a href="http://www.learncpp.com/cpp-tutorial/117-multiple-inheritance/">best</a>
+<a href="http://stackoverflow.com/questions/21824402/java-multiple-inheritance">feel</a>
+<a href="http://stackoverflow.com/questions/9163341/multiple-inheritance-prototypes-in-javascript">like</a>
+<a href="http://stackoverflow.com/questions/178333/multiple-inheritance-in-c-sharp">workarounds</a>.
+It is almost certainly <em>possible</em> in all the most common languages,
+but they really get in the way and require you to write tons of boilerplate to do it.</p>
+<h2>Class Free OOP</h2>
+<p>This is where languages like JavaScript really help out.
+JavaScript <code>Functions</code> are first-class citizens in the language,
+so this method just feels natural and is relatively frictionless.</p>
+<p>If you want a <code>Duck</code>, you create a Function that returns an <code>Object</code> that looks like a Duck.
+If you also want an <code>Alligator</code> and a <code>Goat</code>, you create those two <code>Functions</code>.
+The difference is you do not inherit any classes or implement any interfaces.
+Inside the functions, you add methods and properties and return an <code>Object</code> that looks like what you want.</p>
+<p>But this time around, when you refactor out the reusable portions,
+you just take the pieces out into their own <code>Objects</code>:
+<code>withFlying</code>, <code>withAnimal</code>, <code>withWalking</code>, and <code>withSwimming</code>.
+Then for each <code>Object</code> that needs the functionalty,
+you just copy the methods on them to your own <code>Object</code>.
+And if you want to reuse any of them in another <code>object</code>, you just do.
+No compiler is going to complain about it or tell you that you can't.
+It is just going to work and <a href="http://en.wikipedia.org/wiki/Duck_typing#In_JavaScript">act like a duck</a>.</p>
+<h2>Why Class Free OO is Hard To Grasp</h2>
+<h3>It is a Whole School of Thought</h3>
+<p>Most students in Computer Science or people that have self-taught themselves
+programming have learned or picked up a popular OO language.
+Whether that is Java, C#, C++, etc. does not matter.
+These languages have inheritance built into them and strongly rely on you using
+their pattern to properly use the language.
+JavaScript even has its own paradigm of it: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype">Object.prototype</a>.</p>
+<p>For many, the current paradigm for handling complexity is by utilizing interfaces and parent classes.
+This works, but can get hairy when trying to call methods of
+parents or parent's parents to extend functionality or
+trying to decide what should be in a class, parent, or interface.</p>
+<h3>Tools are Geared Around Inheritance</h3>
+<p>People are too dependent on their OOP focused IDE's to even want to do it another way.
+Many of the restrictions and constraints of some languages
+make programming so difficult an IDE is more-or-less required.
+If I had to program C# code without an IDE, I would probably go nuts.
+The sheer amount of ceremony, boilerplate, keywords, system libraries, constraints,
+and gotchas in the language are too much for me to try and program with a text-editor and a compiler.
+The IDE's offer all these tools for refactoring in an OOP sense it is hard to stray away.
+Some people spin this as a benefit for the language because it has such an amazing IDE,
+but I see it as a negative that the IDE is basically required to use the language in a proficient way.
+The language is so complicated, not even the programmers can trust themselves.</p>
+<h2>How Class Free OOP Can Benefit You</h2>
+<p>It actually can't benefit you if your language of choice can't do it in an easy way.
+But if it is like JavaScript, there are lots of niceties you get out of it.
+The weirdest thing for me is how simple of a language JavaScript is,
+yet how flexible it is and how confusing it is to even experienced developers.</p>
+<p>But in JavaScript at least, here are some things it gives you:</p>
+<ol>
+<li>Smaller amounts of code</li>
+<li>Simpler code that saves time</li>
+<li>No crazy inheritance/interface graphs</li>
+<li>Easily composable objects</li>
+</ol>
+<p>Let's go over those real quickly.</p>
+<p>You will write less.
+You aren't writing boilerplate to define interfaces and figuring out the hierarchy
+and implementing the functions on the class.
+You are copying the properties straight to your object.
+You can sort of view it as multi-inheritance limited to a single level
+where all of the parents are merely describers.</p>
+<p>Your code will be much simpler and flexible.
+After you're done not writing tons of boilerplate and ceremony,
+pat yourself on the back for saving that time and being able to see your bugs more easily.</p>
+<p>You won't be making any decisions about if your parent's parent's parent class is doing too much or too little.
+You'll be looking at the immediate thing you included and deciding if it is enough.</p>
+<p>Do you have a button that needs rounded corners?
+Cool, make a rounded-corners object.
+Do you need a duck that has rounded corners too?
+Cool, then include your rounded-corners object without worrying about what they
+were inherited from.
+Nobody cares about what you do with your objects in your private time.</p>
+<h2>A Duck, an Alligator, and a Goat Revisited</h2>
+<pre><code class="language-ts">function newAlligator() {
+  var alligator = {
+    name: &quot;alligator&quot;,
+    word: &quot;grrr&quot;,
+  };
+  extend(alligator, withAnimal);
+  extend(alligator, withWalking);
+  extend(alligator, withSwimming);
+  return alligator;
+}
+
+function newDuck() {
+  var duck = {
+    name: &quot;duck&quot;,
+    word: &quot;quack&quot;,
+  };
+  extend(duck, withAnimal);
+  extend(duck, withWalking);
+  extend(duck, withFlying);
+  extend(duck, withSwimming);
+  return duck;
+}
+
+function newGoat() {
+  var goat = {
+    name: &quot;goat&quot;,
+    word: &quot;baa&quot;,
+  };
+  extend(goat, withAnimal);
+  extend(goat, withWalking);
+  return goat;
+}
+
+var alligator = newAlligator();
+alligator.talk();
+alligator.swim();
+alligator.walk();
+
+var duck = newDuck();
+duck.talk();
+duck.fly();
+duck.walk();
+
+var goat = newGoat();
+goat.talk();
+goat.walk();
+
+function extend(target, source) {
+  Object.keys(source).forEach(function (key) {
+    if (typeof target[key] !== &quot;undefined&quot;) {
+      return;
+    }
+    target[key] = source[key];
+  });
+}
+
+var withAnimal = {
+  name: &quot;name&quot;,
+  word: &quot;word&quot;,
+  talk: function () {
+    console.log(this.name + &quot; says &quot; + this.word);
+  },
+};
+
+var withFlying = {
+  fly: function () {
+    console.log(&quot;flap flap&quot;);
+  },
+};
+
+var withSwimming = {
+  swim: function () {
+    console.log(&quot;splish splash&quot;);
+  },
+};
+
+var withWalking = {
+  walk: function () {
+    console.log(&quot;stomp stomp&quot;);
+  },
+};
+</code></pre>
+
+    </main>
+  </div>
+</body>
+</html>
