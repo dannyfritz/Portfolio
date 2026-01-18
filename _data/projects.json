@@ -38,11 +38,6 @@
     "description": "A map of all businesses and public spaces in Cole.",
     "links": [
       {
-        "url": "https://directory.coleinfo.com",
-        "text": "Website",
-        "fa-icon": "fas fa-link"
-      },
-      {
         "url": "https://github.com/dannyfritz/cole-directory-web-client",
         "text": "Frontend Code",
         "fa-icon": "fab fa-github"
@@ -60,11 +55,6 @@
     "description": "A map showing the aproximate area where you can smell the Purina pet food plant.",
     "links": [
       {
-        "url": "http://www.purina-smell.com/",
-        "text": "Website",
-        "fa-icon": "fas fa-link"
-      },
-      {
         "url": "https://gitlab.com/dannyfritz/smell-map",
         "text": "Code",
         "fa-icon": "fab fa-gitlab"
@@ -77,14 +67,12 @@
     "image": "/projects/images/SPH.png",
     "links": [
       {
-        "url": "http://player.vimeo.com/video/34997187?title=0&byline=0&portrait=0&color=d24f21&autoplay=1",
-        "text": "Video",
-        "fa-icon": "fab fa-youtube"
+        "url": "https://youtu.be/roZ3WicBuhg",
+        "text": "Video"
       },
       {
         "url": "https://bitbucket.org/gwindes/super-pluvious-hydration-cuda-opengl",
-        "text": "Bitbucket",
-        "fa-icon": "fab fa-bitbucket"
+        "text": "Bitbucket"
       }
     ]
   },
@@ -99,9 +87,8 @@
         "fa-icon": "fa fa-list-alt"
       },
       {
-        "url": "https://bitbucket.org/dannyfritz/message-in-a-bottle/",
-        "text": "Bitbucket",
-        "fa-icon": "fab fa-bitbucket"
+        "url": "https://github.com/dannyfritz/message-in-a-bottle",
+        "text": "GitHub"
       }
     ]
   },
@@ -123,9 +110,17 @@
     "description": "A paint-esque program. Supports color sampling and animations.",
     "links": [
       {
+        "url": "https://youtu.be/wQ_PNjBR4z0",
+        "text": "Video"
+      },
+      {
         "url": "http://love2d.org/forums/viewtopic.php?f=5&t=1193#p11650",
         "text": "Download",
         "fa-icon": "fa fa-download"
+      },
+      {
+        "url": "https://github.com/dannyfritz/lovely-expressions",
+        "text": "GitHub"
       }
     ]
   },
@@ -135,9 +130,12 @@
     "description": "A simple photo viewer. It automatically finds all photos in the current directory and displays them in a horizontal line.",
     "links": [
       {
-        "url": "https://bitbucket.org/dannyfritz/loveshow/",
-        "text": "Bitbucket",
-        "fa-icon": "fab fa-bitbucket"
+        "url": "https://youtu.be/kGCF89cpUYA",
+        "text": "Video"
+      },
+      {
+        "url": "https://github.com/dannyfritz/loveshow",
+        "text": "GitHub"
       }
     ]
   },
@@ -159,24 +157,17 @@
     "image": "/projects/images/NoahsArk.png",
     "links": [
       {
+        "url": "https://youtu.be/0Vm7zkR8zMQ",
+        "text": "Video"
+      },
+      {
         "url": "https://www.youtube.com/watch?v=pMoHeUvz9lg",
         "text": "Timelapse",
         "fa-icon": "fab fa-youtube"
       },
       {
-        "url": "https://bitbucket.org/dannyfritz/noahs-ark/",
-        "text": "Bitbucket",
-        "fa-icon": "fab fa-bitbucket"
-      },
-      {
-        "url": "https://bitbucket.org/dannyfritz/noahs-ark/downloads/Noahs_Ark-01-Windows.zip",
-        "text": "Windows",
-        "fa-icon": "fab fa-windows"
-      },
-      {
-        "url": "https://bitbucket.org/dannyfritz/noahs-ark/downloads/Noahs_Ark-01-OSX.zip",
-        "text": "OSX",
-        "fa-icon": "fab fa-apple"
+        "url": "https://github.com/dannyfritz/noahs-ark",
+        "text": "GitHub"
       }
     ]
   },
@@ -186,19 +177,12 @@
     "image": "/projects/images/Rebound.jpg",
     "links": [
       {
-        "url": "https://bitbucket.org/dannyfritz/rebound/",
-        "text": "Bitbucket",
-        "fa-icon": "fab fa-bitbucket"
+        "url": "https://youtu.be/rBjAYyiu4Yg",
+        "text": "Video"
       },
       {
-        "url": "https://bitbucket.org/dannyfritz/rebound/downloads/Rebound-10-Win.zip",
-        "text": "Windows",
-        "fa-icon": "fab fa-windows"
-      },
-      {
-        "url": "https://bitbucket.org/dannyfritz/rebound/downloads/Rebound-10-OSX.zip",
-        "text": "OSX",
-        "fa-icon": "fab fa-apple"
+        "url": "https://github.com/dannyfritz/rebound",
+        "text": "GitHub"
       }
     ]
   }
