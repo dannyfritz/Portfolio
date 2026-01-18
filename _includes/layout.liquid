@@ -28,8 +28,9 @@
         {%- endfor -%}
       </ol>
     </nav>
-    {%if title%}<h2>{{ title }}</h2>{%endif%}
     <main>
+      {%if title%}<h2>{{ title }}</h2>{%endif%}
+      {%if date%}<p>Published on <time datetime="{{ date }}">{{ date | date: "%Y-%m-%d" }}</time></p>{%endif%}
       {{ content }}
     </main>
   </div>

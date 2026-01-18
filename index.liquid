@@ -3,11 +3,21 @@
   title: About Me
   tags: nav
 ---
+<style>
+img {
+  width: 12ch;
+}
+</style>
+
+{%- for block in bio.blocks -%}
+<p>{{ block }}</p>
+{%- endfor -%}
 
 <ul>
 {%- for section in bio.sections -%}
 <li>
   <h3>{{section.title}}</h3>
+  {%- if section.image -%}<img src="{{section.image}}" loading="lazy">{%- endif -%}
   <ol>
     {%- for link in section.links -%}
     <li>

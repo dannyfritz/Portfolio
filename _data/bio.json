@@ -1,21 +1,15 @@
 {
   "name": "Danny Fritz",
-  "description": "Passionate about software, graphics, environmentalism, biking, public transit, urban planning, education, and birds.",
-  "tagline": "Having fun with technology and respecting nature",
-  "features": [
-    {
-      "title": "Interests",
-      "details": "Software development, the web platform, nature, climate change, birds, game engines, graphics, walking, biking, urban planning, and politics."
-    },
-    {
-      "title": "Programming",
-      "details": "Rust & TypeScript are my favorite programming languages to use. But I know and have used many more!"
-    }
+  "blocks": [
+    "Hi, my name is Danny Fritz. I'm a passionate software engineer.",
+    "I am interested in software development, the web platform, nature, climate change, birds, game engines, graphics, walking, biking, urban planning, reading, and politics.",
+    "TypeScript, ReScript, Rust, and Nim are my favorite programming languages to use. But I know and have used many more!",
+    "If I could wave a magic wand, all software and data would be liberated and owned and modifiable by its users. The internet would be fun, social, expressive, private, and small again. Software would be made to better humanity instead of to extract money from users."
   ],
   "sections": [
     {
       "title": "Profile",
-      "image": "me.jpg",
+      "image": "projects/images/me.jpg",
       "links": [
         {
           "url": "https://docs.google.com/document/d/13oyGnlpDQ9pL2itJE5q0HtkXgAiE-qNeupt_i3KR8xg/edit?hl=en&authkey=COe_jtYO",
@@ -41,7 +35,6 @@
     },
     {
       "title": "Code",
-      "image": "",
       "links": [
         {
           "url": "https://codeberg.org/dannyfritz",
@@ -77,7 +70,7 @@
     },
     {
       "title": "Corvid Coder",
-      "image": "Crow.png",
+      "image": "/projects/images/Crow.png",
       "links": [
         {
           "url": "http://corvidcoder.com/",
@@ -98,7 +91,6 @@
     },
     {
       "title": "Music",
-      "image": "",
       "links": [
         {
           "url": "https://soundcloud.com/technocat",

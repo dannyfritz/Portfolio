@@ -1,7 +1,12 @@
 :root {
+  --primary: #eeeeee;
+  --muted: #aaaaaa;
+  --secondary: #b3dcee;
+  --accent: #c7cd95;
+  --background: #030202;
   font-family: monospace;
   font-size: 1rem;
-  color: #eeeeee;
+  color: var(--primary);
 }
 * {
   font-size: 1rem;
@@ -10,7 +15,7 @@ html, body {
   margin: 0;
   padding: 0;
   width: 100%;
-  background-color: #030202;
+  background-color: var(--background);
   min-height: 100dvh;
 }
 body {
@@ -23,7 +28,7 @@ header {
 }
 pre {
   overflow-x: auto;
-  color: #b3dcee;
+  color: var(--secondary);
 }
 .terminal {
   display: flex;
@@ -37,10 +42,10 @@ h1 {
   text-transform: uppercase;
 }
 h2 {
-  color: #c7cd95;
+  color: var(--accent);
 }
 h3 {
-  color: #c7cd95;
+  color: var(--secondary);
 }
 ol {
   padding-inline-start: 3ch;

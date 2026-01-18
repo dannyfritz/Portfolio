@@ -3,7 +3,14 @@
   title: Projects
   tags: nav
 ---
-<ol>
+<style>
+.projects {
+  img {
+    width: 20ch;
+  }
+}
+</style>
+<ol class="projects">
 {% for project in projects %}
   <li>
     <h3>{{ project.title }}</h3>
