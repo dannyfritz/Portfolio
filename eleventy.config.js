@@ -6,6 +6,7 @@ import { tasklist } from "@mdit/plugin-tasklist";
 import { mathjax, createMathjaxInstance } from "@mdit/plugin-mathjax";
 import { container } from "@mdit/plugin-container";
 import { abbr } from "@mdit/plugin-abbr";
+import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 
 export default async function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("styles.css");
@@ -37,4 +38,22 @@ export default async function(eleventyConfig) {
       // The HTML specification is maintained by the W3C.
       .use(abbr)
   );
+  eleventyConfig.addPlugin(feedPlugin, {
+		type: "atom",
+		outputPath: "/feed.xml",
+		collection: {
+			name: "post", // iterate over `collections.posts`
+			limit: 0,      // 0 means no limit
+		},
+		metadata: {
+			language: "en",
+			title: "Danny Fritz's Blog",
+			subtitle: "Musings about life, software engineering, the world, and math.",
+			base: "https://dannyfritz.com/",
+			author: {
+				name: "Danny Fritz",
+				email: "me@dannyfritz.com",
+			}
+		}
+	});
 };
