@@ -29,6 +29,7 @@ header {
 pre {
   overflow-x: auto;
   color: var(--secondary);
+  max-width: 100vw;
 }
 .terminal {
   display: flex;
