@@ -21,7 +21,7 @@ export default async function(eleventyConfig) {
     mdLib
       // images automatically have lazy added
       .use(imgLazyload)
-      // == text ==
+      // ==text==
       .use(mark)
       // a scientific fact. [^first]
       // [^first]: my footnote
