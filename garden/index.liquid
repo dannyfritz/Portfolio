@@ -1,6 +1,6 @@
 ---
   layout: layout
-  title: Blog
+  title: Garden
   tags: nav
 ---
 <style>
@@ -21,9 +21,13 @@
   }
 }
 </style>
-<p>Subscribe to the <a href="/feed.xml">atom feed</a> using your favorite feed aggregator.</p>
+<p>
+This is my <a href="https://maggieappleton.com/garden-history">digital garden</a>.
+I am not responsible for your reaction to my thoughts, writings, philosophies, etc..
+Please understand that the content here is very unrefined and sprawly as a goal.
+</p>
 <ol class="posts">
-  {%- for post in collections.post reversed -%}
+  {%- for post in collections.path -%}
   <li>
     <a href="{{ post.url }}">{{ post.data.title }}</a>
     <time datetime="{{ post.data.date }}">{{ post.data.date | date: "%Y-%m-%d" }}</time>

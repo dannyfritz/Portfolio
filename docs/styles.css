@@ -80,3 +80,6 @@ mjx-assistive-mml {
 .details, .info {
   border: 1px solid;
 }
+.footnote-item:target {
+  outline: 1px solid gold;
+}
