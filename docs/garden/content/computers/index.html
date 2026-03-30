@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="generator" content="Eleventy v3.1.2" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <link rel="stylesheet" href="/styles.css" />
+  <title>Danny Fritz / Computers & Software</title>
+  <link rel="icon" href="/favicon.png" />
+</head>
+<body>
+  <div class="terminal">
+    <header>
+      <h1><a href="/">DANNY FRITZ()</a></h1>
+      <p>User Manual</p>
+      <p class="generated-date">Generated on<br>2026-03-30</p>
+    </header>
+    <nav>
+      <h2>NAVIGATION</h2>
+      <ol><li
+          
+        >
+          <a href="/">About Me</a>
+        </li><li
+          
+        >
+          <a href="/blog/">Blog</a>
+        </li><li
+          
+        >
+          <a href="/projects/">Projects</a>
+        </li><li
+          
+        >
+          <a href="/garden/">Garden</a>
+        </li></ol>
+    </nav>
+    <main>
+      <h2>Computers & Software</h2>
+      <p>Published on <time datetime="2026-03-30T00:00">2026-03-30</time></p>
+      <h1>Computers &amp; Software</h1>
+<h2>Using Large Language Models for Coding</h2>
+<h2>My Low-Power PC</h2>
+<p>I bought a <a href="https://en.wikipedia.org/wiki/Raspberry_Pi_4">Raspberry Pi 4 Model B</a>
+with 8GB of RAM to use as my self-hosted software server.
+I intentionally bought something that was both cheap and low power.
+Bought an alluminum case with active fan for it.
+It uses between 3W at idle and 15W at full throttle.
+I calculated that out to cost between 2.63$ and 13.15$ per year in electricity
+(2026 US-WI rates).</p>
+<h3>Fedora</h3>
+<p>I chose Fedora to run on it despite Raspbian being the official distro.
+I've run Fedora on my main computer for many years and chose it because of
+familiarity.
+But, one of the cons is that there didn't appear to be any working fan control
+layers.
+One <a href="https://codeberg.org/dannyfritz/raspberry-pi-4_utils">fish script</a> and
+a service unit later, and the Pi will cool itself automatically when it gets
+hot.</p>
+<h3>Services</h3>
+<p>One thing different about running a low-power PC is you have to be really
+careful about what software you choose to run on it.
+The current en vogue software stack for self-hosting is Docker, but that would
+bring my system to its knees almost immediately.
+So in a twist of something fun, something educational, and necessity I have
+chosen to make my services bespoke and tiny.</p>
+<p>Technologies that are good for low-end servers:</p>
+<ul>
+<li>SQLite</li>
+<li>Compiled binaries from languages like C, Rust, Nim, Go, etc.</li>
+<li>Shell scripts like Bash, Fish, Nu, etc.</li>
+<li>Invoked on-demand instead of daemonized (my server is mostly idle)</li>
+</ul>
+<p>Technologies to avoid:</p>
+<ul>
+<li>Interpretted runtimes like Node and Python</li>
+<li>Virtualization like Docker</li>
+</ul>
+
+    </main>
+  </div>
+</body>
+</html>
