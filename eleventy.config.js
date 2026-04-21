@@ -34,7 +34,8 @@ export default async function(eleventyConfig) {
       // $$ E=mc^2 $$
       .use(mathjax, mathjaxInstance)
       // ::: details
-      // text :::
+      // text
+      // :::
       .use(container, { name: "details" })
       .use(container, { name: "info" })
       // *[HTML]: Hyper Text Markup Language
