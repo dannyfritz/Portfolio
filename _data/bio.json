@@ -30,6 +30,11 @@
           "url": "https://ebird.org/profile/OTI1NzM5",
           "text": "eBird",
           "fa-icon": "fas fa-crow"
+        },
+        {
+          "url": "https://bookwyrm.social/user/dannyfritz/books/read",
+          "text": "BookWyrm",
+          "fa-icon": "fas fa-book"
         }
       ]
     },
