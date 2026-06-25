@@ -7,8 +7,6 @@ date: 2026-03-29T00:00
 latest: 2026-04-20T00:00
 ---
 
-# Economics
-
 *The capitalism end times are here. Unite now or die as wage slaves.*
 
 I've been reading books on economics lately.

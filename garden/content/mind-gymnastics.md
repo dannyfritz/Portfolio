@@ -6,8 +6,6 @@ summary: 'Practices to keep the mind expanded.'
 date: 2026-03-29T00:00
 ---
 
-# Mind Gymnastics
-
 > A Mind Is A Terrible Thing To Waste
 > — [The UNCF Motto](https://en.wikipedia.org/wiki/UNCF#The_UNCF_motto)
 

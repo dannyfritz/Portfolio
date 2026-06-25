@@ -5,10 +5,6 @@ title: 'Computers & Software'
 date: 2026-03-30T00:00
 ---
 
-# Computers & Software
-
-## Using Large Language Models for Coding
-
 ## My Low-Power PC
 
 I bought a [Raspberry Pi 4 Model B](https://en.wikipedia.org/wiki/Raspberry_Pi_4)
