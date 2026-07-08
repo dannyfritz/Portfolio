@@ -52,7 +52,7 @@
   {
     "title": "Purina Smell",
     "image": "/projects/images/purinasmell.jpg",
-    "description": "A map showing the aproximate area where you can smell the Purina pet food plant.",
+    "description": "A map showing the approximate area where you can smell the Purina pet food plant.",
     "links": [
       {
         "url": "https://gitlab.com/dannyfritz/smell-map",
